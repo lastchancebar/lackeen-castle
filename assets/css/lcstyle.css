@@ -1,3 +1,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("http://www.megalithicireland.com/Tipperary/Lackeen%20Castle,%20Tipperary%20002s.jpg") no repeat center center;
+    background-color: aqua;
+    background-size: cover;
+    height: auto;
 }
