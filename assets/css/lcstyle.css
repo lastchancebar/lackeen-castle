@@ -23,8 +23,8 @@ body{
 }
 .castle-background 
 {clear:left;
-    background: url("../images/lackeencastle6.jpg");
-    background-size: cover;
+    background: url("../images/lackeencastle6.jpg") alt=("Lackeen Castle, Tipperary, stone tower standing in isolation in Irish countryside");
+    background-size: cover; 
     background-position: center;
     height: 900px;
 
@@ -35,28 +35,20 @@ body{
 }
 
 #menu, #logo {
-    line-height: 75px;
-}
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-#menu a:hover {
-    border-bottom: 2px solid red; 
-}
 
-#menu li {
-
-float: right;
 list-style-type: none;
  margin-right:30px ;
 }
 
 .active {
     border-bottom: 2px solid red;
+
+
+
 }
 #about-lackeen {
     color: #00008b;
     background-color: bisque;
     background: transparent;
 }
+
