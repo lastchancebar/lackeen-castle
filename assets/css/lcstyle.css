@@ -1,16 +1,17 @@
-@import  url("https://fonts.googleapis.com/css2?family=Eczar&family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar&family=PT+Serif&display=swap");
 
 
 
-body{
+body {
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: bisque;
-    background-image: url("http://www.megalithicireland.com/Tipperary/Lackeen%20Castle,%20Tipperary%20002s.jpg") no repeat center center;
+
     background-color: #00008B;
     background-size: cover;
     height: 500px;
 
 }
+
 #logo {
     float: left;
     color: inherit;
@@ -21,23 +22,35 @@ body{
     margin-top: 100px;
     text-transform: uppercase;
 }
-.castle-background 
-{clear:left;
-    background: url("../images/lackeencastle6.jpg") alt=("Lackeen Castle, Tipperary, stone tower standing in isolation in Irish countryside");
-    background-size: cover; 
-    background-position: center;
-    height: 900px;
 
-}
+
+
 #menu {
     letter-spacing: 2px;
     font-size: 120%;
 }
 
-#menu, #logo {
+#menu,
+#logo {
 
-list-style-type: none;
- margin-right:30px ;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+
+    border-bottom: 2px solid red;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 .active {
@@ -46,9 +59,21 @@ list-style-type: none;
 
 
 }
+
+.castle-background {
+    clear: left;
+    background: url("../images/lackeencastle6.jpg");
+    background-size: inherit;
+    background-position: center;
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    margin: 30px;
+
+}
+
 #about-lackeen {
     color: #00008b;
     background-color: bisque;
     background: transparent;
 }
-
