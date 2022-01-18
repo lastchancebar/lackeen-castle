@@ -1,5 +1,9 @@
+@import  url("https://fonts.googleapis.com/css2?family=Eczar&family=PT+Serif&display=swap");
+
+
+
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: bisque;
     background-image: url("http://www.megalithicireland.com/Tipperary/Lackeen%20Castle,%20Tipperary%20002s.jpg") no repeat center center;
     background-color: #00008B;
@@ -10,9 +14,12 @@ body{
 #logo {
     float: left;
     color: inherit;
-    font-size: 200%;
+    color: bisque;
+    font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 300%;
     margin-left: 30px;
     margin-top: 100px;
+    text-transform: uppercase;
 }
 .castle-background 
 {clear:left;
