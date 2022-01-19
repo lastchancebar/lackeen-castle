@@ -55,25 +55,19 @@ body {
 
 .active {
     border-bottom: 2px solid red;
-
-
-
 }
+
+
+
 
 .castle-background {
     clear: left;
-    background: url("../images/lackeencastle6.jpg");
+    background: url("../images/lackeen-castle-view.jpg");
     background-size: cover;
     background-position: center;
-    height: 800px;
-    width: 800px;
-    border-radius: 50%;
-    margin: auto;
+    height: 900px;
+  
 
 }
 
-#about-lackeen {
-    color: rgb(11, 8, 164, 0.6)
-    background-color: bisque;
-    background: transparent;
-}
+
