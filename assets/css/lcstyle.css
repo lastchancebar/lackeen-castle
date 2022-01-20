@@ -8,7 +8,7 @@ body {
 
     background-color: #00008B;
     background-size: cover;
-    height: 500px;
+    height: 1200px;
 
 }
 
@@ -57,10 +57,25 @@ body {
     border-bottom: 2px solid red;
 }
 
+#info-text {
+
+    font-size: 100%;
+    font-family: PT+ Serif, serif;
+
+    
+   
+    height: 300px;
+    width: 800px;
+
+    background-color: rgba(241, 109, 107, .7); 
+
+    position: absolute;
+}
+
 h2 {
     margin-left: 30px;
     padding: auto;
-    border-bottom: 2px solid bisque;
+
     text-transform: uppercase;
 }
 
