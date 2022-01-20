@@ -8,7 +8,7 @@ body {
 
     background-color: #00008B;
     background-size: cover;
-    height: 1200px;
+    height: 900px;
 
 }
 
@@ -19,8 +19,9 @@ body {
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 400%;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 
@@ -28,6 +29,8 @@ body {
 #menu {
     letter-spacing: 2px;
     font-size: 120%;
+    margin-top: 50px;
+    padding-top: 100px;
 }
 
 #menu,
@@ -59,12 +62,13 @@ body {
 
 #info-text {
 
-    font-size: 100%;
+    font-size: 120%;
     font-family: PT+ Serif, serif;
-
+padding-left: 50px;
+padding-top: 50px;
     
    
-    height: 300px;
+    height: 400px;
     width: 800px;
 
     background-color: rgba(241, 109, 107, .7); 
