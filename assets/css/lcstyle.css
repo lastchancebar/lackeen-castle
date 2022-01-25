@@ -61,7 +61,7 @@ body {
 .active {
     border-bottom: 2px solid red;
 }
-
+/* Summary information*/
 #info-text {
 
     font-size: 100%;
@@ -137,12 +137,13 @@ figcaption .desc {
 
 footer {
     position:fixed;
-    right :0px;
-    bottom:0px;
+  left : 0;
+    bottom:0;
     width: 100%;
-    color:inherit;
-background: inherit;
-    height: 30px;
+    color: #fff;
+background-color: #00008B;
+text-align: center;
+    
 }
 
 .social-networks {
