@@ -19,7 +19,8 @@ body {
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 400%;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -29,8 +30,9 @@ body {
 #menu {
     letter-spacing: 2px;
     font-size: 120%;
-    margin-top: 50px;
-    padding-top: 100px;
+    margin-bottom: 5px;
+    padding-top: 160px;
+    
 }
 
 #menu,
@@ -62,16 +64,16 @@ body {
 
 #info-text {
 
-    font-size: 120%;
+    font-size: 100%;
     font-family: PT+ Serif, serif;
-padding-left: 50px;
+padding-left: 30px;
 padding-top: 50px;
     
    
-    height: 400px;
-    width: 800px;
+    height: 500px;
+    width: 600px;
 
-    background-color: rgba(241, 109, 107, .7); 
+    background-color: rgba(107, 102, 102, 0.7); 
 
     position: absolute;
 }
@@ -89,31 +91,51 @@ h2 {
     background: url("../images/lackeen-castle-view.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 600px;
   
 
 }
+/* Kennedy photos*/
+#kennedy-pics {
+    
+    width :30%;
+    height: auto;
+    position: center;
+
+}
+#kennedy-pics > img {
+    width: 100%;
+
+}
+/*location*/
+
 #location{
-    height: 100px;
+    height: 80px;
 }
 
 #map {
 
-    padding-top: 20px;
-    width: 50%;
+    padding-top: 30px;
+    width: 40%;
     float: left;
 }
 
 #directions {
     padding-top: 30px;
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
 /* footer*/
 
 footer {
-    height: 150px;
+    position:fixed;
+    right :0px;
+    bottom:0px;
+    width: 100%;
+    color:inherit;
+background: inherit;
+    height: 30px;
 }
 
 .social-networks {
