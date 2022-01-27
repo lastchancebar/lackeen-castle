@@ -1,37 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Eczar&family=PT+Serif&display=swap");
 
-
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body {
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: bisque;
-
+font-weight: 300;
     background-color: #00008B;
     background-size: cover;
-    height: 1400px;
-
+    
 }
+/* headings and logo*/
 
-#logo {
-    float: left;
-    color: inherit;
-    color: bisque;
-    font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;
-    margin-left: 30px;
-    margin-top: 5px;
-    mar4in-bottom: 5px;
+h1, h2 {
+    color:bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+
+}
+#logo
+{   float:left;
+    color: bisque;
+    font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 270%;
+    margin-left: 30px;
 }
 
 
 
 #menu {
     letter-spacing: 2px;
-    font-size: 120%;
-    margin-bottom: 5px;
-    padding-top: 160px;
+    font-size: 110%;
+    
     
 }
 
@@ -39,7 +45,7 @@ body {
 #logo {
 
     
-    margin-right: 30px;
+   line-height: 75px;
 }
 
 #menu a {
@@ -49,7 +55,7 @@ body {
 
 #menu a:hover {
 
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid bisque
 }
 
 #menu li {
@@ -59,43 +65,85 @@ body {
 }
 
 .active {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid bisque;
+
+    /* End Nav bar*/
 }
 /* Summary information*/
+
 #summary-outer {
-    height: 750px;
+    height: 600px;
     width:100%;
     overflow:hidden;
     position:relative;
 }
 
+#cover-text, #covertext h2
+{
+    color: #00008B;
+}
 .castle-background {
     clear: left;
     background: url("../images/lackeen-castle-view.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
-
-#info-text {
-
-    font-size: 110%;
-    font-family: PT+ Serif, serif;
-padding-left: 30px;
-padding-top: 30px;
-    
-   
-    height: 500px;
-    width: 48%;
-
-    background-color: rgba(107, 102, 102, 0.7); 
-
-    position: absolute;
+    width: 100%;
+    /* animates zoom effect on loading page*/
+    animation-name: castle-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
+/* create level of zoom for castle*/
+@keyframes castle-zoom{
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+#info-text {
+
+    font-size: 130%;
+    font-family: eczar, serif;
+    text-transform: uppercase;
+    text-shadow: #00008B;
+    text-align: justify;
+
+padding-top: 20px;
+padding-left: 10px;
+    
+   
+    height: 200px;
+    width: 40%;
+
+    bottom: 100px;
+    left: 100px;
+
+    background-color: rgba(94, 36, 36, 0.7); 
+
+    position: absolute;
+    border: none;
+    border-radius: 2.5%;
+}
+/*
 h2 {
     margin-left: 30px;
     padding: auto;
 font-size: 200%;
+    text-transform: uppercase;
+}*/
+
+#okennedy{
+    height:600px;
+}
+#ok-history
+{
+    text-align:center;
+    margin: 20px 0;
+    font-size:200%;
     text-transform: uppercase;
 }
     
