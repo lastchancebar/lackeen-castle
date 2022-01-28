@@ -137,11 +137,12 @@ font-size: 200%;
 }*/
 
 #lackeen-summary{
-    height:600px;
+    height: 500px;
+        margin:0 auto;
 }
 
 
-#lackeen-intro
+#lackeen-intro 
 {
     text-align:center;
     margin: 20px 0;
@@ -151,7 +152,7 @@ font-size: 200%;
     
 #left-about
 {
-    padding-top: 30px;
+    padding-top: 50px;
     width: 33%;
     float:left;
 
@@ -170,7 +171,7 @@ font-size: 200%;
 }
 #right-about
 {
-    padding-top: 30px;
+    padding-top: 50px;
     width: 33%;
     float: right;
 
@@ -266,10 +267,19 @@ padding-top: 50px;
     text-align: center;*/
 /*location*/
 
-#location{
+#location {
     height: 400px;
-    margin:50px auto;
+    margin: 20px auto;
+    width:100%;
 }
+#visit-intro
+{
+    text-align:center;
+    margin: 20px 0;
+    font-size:200%;
+    text-transform: uppercase;
+}
+
 
 #map {
 margin-left: 30px;
@@ -280,7 +290,7 @@ margin-left: 30px;
 }
 
 #directions {
-    padding: 0 auto;
+    padding: 50px auto;
     width: 45%;
     float: right;
     font-size: 110%;
@@ -293,8 +303,8 @@ footer {
   left : 0;
     bottom:0;
     width: 100%;
-    color: #fff;
-background-color: #00008B;
+    color: #00008b;
+background-color: bisque;
 text-align: center;
     height: 20 px;
     
