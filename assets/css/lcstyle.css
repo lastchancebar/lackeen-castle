@@ -21,7 +21,7 @@ h1, h2 {
     color:bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-family: PT+Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
 
 }
 #logo
@@ -136,10 +136,12 @@ font-size: 200%;
     text-transform: uppercase;
 }*/
 
-#okennedy{
+#lackeen-summary{
     height:600px;
 }
-#ok-history
+
+
+#lackeen-intro
 {
     text-align:center;
     margin: 20px 0;
@@ -147,12 +149,52 @@ font-size: 200%;
     text-transform: uppercase;
 }
     
-#jfk-pic
+#left-about
 {
-    
+    padding-top: 30px;
     width: 33%;
     float:left;
+
 }
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+#right-about
+{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading h2 {
+    text-align: right;
+}
+.right-about-heading p {
+    text-align: right;
+}
+hr {
+    border-top: 1px solid bisque;
+    width: 100%;
+    margin: 5px 0;
+}
+/*
 #eunice-pic {
     margin-bottom: 20px;
     width: 33%;
@@ -162,19 +204,19 @@ font-size: 200%;
     padding-top: 30px;
     width:33%;
 margin: 0 auto;
-}
-.circle-container {
-    width: 200px;
-    height: 200px;
+}*/
+#circle-container {
+    width: 300px;
+    height: 300px;
     padding:30px;
     margin: 0 auto;
     border: 1px solid bisque;
     border-radius: 50%;
 }
 
-   #circle-cover-jfk {
-       background: url('../images/jfk.jpg')no repeat center center;
-       height:200px;
+   #circle-cover-castle {
+       background: url('../images/lackeen-front.jpg') no-repeat center center;
+       height:100%;
        border-radius: 50%;
    }
 
@@ -225,9 +267,8 @@ padding-top: 50px;
 /*location*/
 
 #location{
-    float:left;
     height: 400px;
-    width:100%;
+    margin:50px auto;
 }
 
 #map {
