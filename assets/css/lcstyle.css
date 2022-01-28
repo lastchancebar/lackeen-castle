@@ -22,7 +22,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-family: PT+Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
-
+padding-bottom: 20px;
 }
 #logo
 {   float:left;
@@ -44,8 +44,7 @@ h1, h2 {
 #menu,
 #logo {
 
-    
-   line-height: 75px;
+       line-height: 75px;
 }
 
 #menu a {
@@ -110,7 +109,7 @@ h1, h2 {
     font-family: eczar, serif;
     text-transform: uppercase;
     text-shadow: #00008B;
-    text-align: justify;
+    text-align: center;
 
 padding-top: 20px;
 padding-left: 10px;
@@ -126,7 +125,7 @@ padding-left: 10px;
 
     position: absolute;
     border: none;
-    border-radius: 2.5%;
+    border-radius: 50%;
 }
 /*
 h2 {
@@ -152,7 +151,7 @@ font-size: 200%;
     
 #left-about
 {
-    padding-top: 50px;
+    padding-top: 30px;
     width: 33%;
     float:left;
 
@@ -171,7 +170,7 @@ font-size: 200%;
 }
 #right-about
 {
-    padding-top: 50px;
+    padding-top: 30px;
     width: 33%;
     float: right;
 
@@ -267,34 +266,40 @@ padding-top: 50px;
     text-align: center;*/
 /*location*/
 
-#location {
-    height: 400px;
-    margin: 20px auto;
+#location  {
+    height: 300px;
+    margin: 20px ;
+    
     width:100%;
 }
 #visit-intro
 {
-    text-align:center;
-    margin: 20px 0;
+    text-align:left;
+    margin: 20px 0; 
+    padding: 20px auto;
     font-size:200%;
     text-transform: uppercase;
 }
 
 
 #map {
-margin-left: 30px;
-    padding-top: 10px;
-    width: 50%;
+padding-top: 5px;
+    width: 45%;
+    
     float: left;
+    border: 1px solid bisque;
    
 }
 
 #directions {
-    padding: 50px auto;
-    width: 45%;
+    padding-top: 5px;
+    width: 50%;
     float: right;
-    font-size: 110%;
+    font-size: 120%;
+    height:300px;
+
 }
+
 
 /* footer*/
 
@@ -306,7 +311,7 @@ footer {
     color: #00008b;
 background-color: bisque;
 text-align: center;
-    height: 20 px;
+    height:50px;
     
 }
 
@@ -321,11 +326,11 @@ text-align: center;
     display: inline;
 }
 
-.social-networks {
+.social-networks  i{
 
     font-size: 160%;
     margin: 1%;
-    padding: 0 auto;
+    padding: 5%0 auto;
     color: inherit;
     
 }
