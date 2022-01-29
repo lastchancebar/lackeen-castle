@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Eczar&family=PT+Serif&display=swap");
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -10,22 +9,26 @@
 body {
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: bisque;
-font-weight: 300;
+    font-weight: 300;
     background-color: #00008B;
     background-size: cover;
-    
+
 }
+
 /* headings and logo*/
 
-h1, h2 {
-    color:bisque;
+h1,
+h2 {
+    color: bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-family: PT+Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
-padding-bottom: 20px;
+    font-family: PT+Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    ;
+    padding-bottom: 20px;
 }
-#logo
-{   float:left;
+
+#logo {
+    float: left;
     color: bisque;
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 270%;
@@ -37,14 +40,14 @@ padding-bottom: 20px;
 #menu {
     letter-spacing: 2px;
     font-size: 110%;
-    
-    
+
+
 }
 
 #menu,
 #logo {
 
-       line-height: 75px;
+    line-height: 75px;
 }
 
 #menu a {
@@ -68,19 +71,21 @@ padding-bottom: 20px;
 
     /* End Nav bar*/
 }
+
 /* Summary information*/
 
 #summary-outer {
     height: 600px;
-    width:100%;
-    overflow:hidden;
-    position:relative;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-#cover-text, #covertext h2
-{
+#cover-text,
+#covertext h2 {
     color: #00008B;
 }
+
 .castle-background {
     clear: left;
     background: url("../images/lackeen-castle-view.jpg");
@@ -95,38 +100,41 @@ padding-bottom: 20px;
 }
 
 /* create level of zoom for castle*/
-@keyframes castle-zoom{
-    from{
+@keyframes castle-zoom {
+    from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.05);
     }
 }
+
 #info-text {
 
     font-size: 130%;
     font-family: eczar, serif;
     text-transform: uppercase;
-    text-shadow: #00008B;
+
     text-align: center;
 
-padding-top: 20px;
-padding-left: 10px;
-    
-   
+    padding-top: 20px;
+    padding-left: 10px;
+
+
     height: 200px;
     width: 40%;
 
     bottom: 100px;
     left: 100px;
 
-    background-color: rgba(94, 36, 36, 0.7); 
+    background-color: rgba(94, 36, 36, 0.7);
 
     position: absolute;
-    border: none;
+    border: 1px solid bisque;
     border-radius: 50%;
 }
+
 /*
 h2 {
     margin-left: 30px;
@@ -135,25 +143,24 @@ font-size: 200%;
     text-transform: uppercase;
 }*/
 
-#lackeen-summary{
+#lackeen-summary {
     height: 500px;
-        margin:0 auto;
+    margin: 0 auto;
 }
 
 
-#lackeen-intro 
-{
-    text-align:center;
+#lackeen-intro {
+    text-align: center;
     margin: 20px 0;
-    font-size:200%;
+    font-size: 200%;
     text-transform: uppercase;
+    padding-top: 20px;
 }
-    
-#left-about
-{
+
+#left-about {
     padding-top: 30px;
     width: 33%;
-    float:left;
+    float: left;
 
 }
 
@@ -164,12 +171,13 @@ font-size: 200%;
     clear: both;
     margin-bottom: 50px;
 }
+
 #center-about {
     width: 33%;
     margin: 0 auto;
 }
-#right-about
-{
+
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
@@ -183,17 +191,27 @@ font-size: 200%;
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading h2 {
     text-align: right;
+
 }
+
+.left-about-heading p {
+    padding-top: 5px;
+}
+
 .right-about-heading p {
     text-align: right;
+    padding-top: 5px;
 }
+
 hr {
     border-top: 1px solid bisque;
     width: 100%;
     margin: 5px 0;
 }
+
 /*
 #eunice-pic {
     margin-bottom: 20px;
@@ -208,17 +226,19 @@ margin: 0 auto;
 #circle-container {
     width: 300px;
     height: 300px;
-    padding:30px;
+    padding: 20px;
     margin: 0 auto;
-    border: 1px solid bisque;
+    background-color: bisque;
+    border: 1px solid rgba(94, 36, 36, 0.7);
     border-radius: 50%;
+
 }
 
-   #circle-cover-castle {
-       background: url('../images/lackeen-front.jpg') no-repeat center center;
-       height:100%;
-       border-radius: 50%;
-   }
+#circle-cover-castle {
+    background: url('../images/lackeen-front.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
 
 
 
@@ -266,37 +286,39 @@ padding-top: 50px;
     text-align: center;*/
 /*location*/
 
-#location  {
-    height: 300px;
-    margin: 20px ;
-    
-    width:100%;
+#location {
+    height: 350px;
+    margin: 50px auto;
+
+    width: 100%;
 }
-#visit-intro
-{
-    text-align:left;
-    margin: 20px 0; 
-    padding: 20px auto;
-    font-size:200%;
+
+#visit-intro {
+    text-align: center;
+    margin: 0 auto;
+
+    font-size: 200%;
     text-transform: uppercase;
 }
 
 
 #map {
-padding-top: 5px;
+    margin-left: 30px;
+    padding: 5px auto 30px auto;
     width: 45%;
-    
+
     float: left;
-    border: 1px solid bisque;
-   
+    border: 1px ridged rgba(94, 36, 36, 0.9);
+
 }
 
 #directions {
-    padding-top: 5px;
-    width: 50%;
+    margin-left: 30px;
+    padding: 5px auto 10px auto;
+    width: 45%;
     float: right;
     font-size: 120%;
-    height:300px;
+    height: 300px;
 
 }
 
@@ -304,15 +326,15 @@ padding-top: 5px;
 /* footer*/
 
 footer {
-    position:fixed;
-  left : 0;
-    bottom:0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     color: #00008b;
-background-color: bisque;
-text-align: center;
-    height:50px;
-    
+    background-color: bisque;
+    text-align: center;
+    height: 50px;
+
 }
 
 .social-networks {
@@ -321,16 +343,170 @@ text-align: center;
 
 }
 
-.social-networks  > li{
+.social-networks>li {
 
     display: inline;
 }
 
-.social-networks  i{
+.social-networks i {
 
     font-size: 160%;
     margin: 1%;
     padding: 5%0 auto;
     color: inherit;
-    
+
+}
+
+/* Media queries*/
+
+/* For lap-top screens max-width 1024px and down*/
+@media screen and (max-width:1024px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #info-text {
+
+        font-size: 130%;
+        font-family: eczar, serif;
+        text-transform: uppercase;
+
+        text-align: center;
+
+        padding: 20px auto;
+
+
+        height: 250px;
+        width: 45%;
+
+        bottom: 100px;
+        left: 50px;
+
+        background-color: rgba(94, 36, 36, 0.7);
+
+        position: absolute;
+        border: 1px solid bisque;
+        border-radius: 50%;
+    }
+
+    #info-text>h2 {
+
+        padding-top: 20px;
+    }
+
+
+
+    .left-about-heading,
+    .right-about-heading {
+
+        width: 80%;
+    }
+
+}
+
+/* Media query adjustments for screens from 850px and lower*/
+
+@media screen and (max-width:850px) {
+
+    #info-text {
+
+        font-size: 110%;
+        font-family: eczar, serif;
+        text-transform: uppercase;
+
+        text-align: center;
+
+        padding: 20px auto;
+
+
+        height: 200px;
+        width: 45%;
+
+        bottom: 80px;
+        left: 30px;
+
+        background-color: rgba(94, 36, 36, 0.7);
+
+        position: absolute;
+        border: 1px solid bisque;
+        border-radius: 50%;
+    }
+
+    #info-text>h2 {
+
+        padding-top: 20px;
+    }
+    #summary-outer, #castle-background {
+    height: 400px;
+    }
+
+    #lackeen-summary{
+        width: 80%;
+        height: 1050px;
+        margin:0 auto;
+        
+
+    }
+
+    #lackeen-intro{
+        padding: 30px 0;
+        margin:0;
+        
+    }
+    #left-about, #right-about{
+
+        width: 100%;
+        float: left;
+        padding: 0;
+        
+        
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        text-align:justify;
+        padding:0 auto;
+    }
+    .left-about-heading p, .right-about-heading p {
+        width: 100%;
+        text-align: justify;
+        padding:0 auto;
+    }
+    hr { 
+        display: none;
+    }
+    #center-about{
+        clear:both;
+        width:100%;
+        height: 150px;
+        padding:0;
+
+    }
+
+    #directions {
+        font-size: 100%;
+    }
+    /*#lackeen-summary { 
+        width : 90%;
+        height:1200px;
+        margin:0 auto;
+
+    }
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-heading h2, .right-about-heading h2 {
+        
+        text-align: center;
+        padding:0 20px;
+    }*/
 }
