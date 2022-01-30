@@ -110,6 +110,30 @@ h2 {
     }
 }
 
+.stowe-missal-background {
+    clear: left;
+    background: url("../images/sm-cover-both.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    /* animates zoom effect on loading page*/
+    animation-name: castle-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* create level of zoom for castle*/
+@keyframes castle-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
 #info-text {
 
     font-size: 130%;
@@ -128,7 +152,7 @@ h2 {
     bottom: 100px;
     left: 100px;
 
-    background-color: rgba(94, 36, 36, 0.7);
+    background-color: rgba(0, 0, 139, 0.7);
 
     position: absolute;
     border: 1px solid bisque;
@@ -238,6 +262,21 @@ margin: 0 auto;
     background: url('../images/lackeen-front.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+#oval-container {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 1px solid rgba(94, 36, 36, 0.7);
+    
+
+}
+#circle-cover-missal {
+    background: url('../images/sm-fpage.jpg') no-repeat center center;
+    height: 100%;
+   
 }
 
 
