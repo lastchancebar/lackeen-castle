@@ -133,7 +133,9 @@ h2 {
         transform: scale(1.05);
     }
 }
-
+ a{
+     color:coral;
+ }
 #info-text {
 
     font-size: 130%;
@@ -263,7 +265,8 @@ margin: 0 auto;
     height: 100%;
     border-radius: 50%;
 }
-#oval-container {
+/* Stowe Missal center pic*/
+#pic-container {
     width: 200px;
     height: 300px;
     padding: 20px;
@@ -273,7 +276,7 @@ margin: 0 auto;
     
 
 }
-#circle-cover-missal {
+#pic-missal {
     background: url('../images/sm-fpage.jpg') no-repeat center center;
     height: 100%;
    
@@ -281,48 +284,8 @@ margin: 0 auto;
 
 
 
-/* OKennedy informaiton
-#okennedy{
-    height: 300px;
-    width:100%;
-    margin (0,auto);
-}
 
 
-#okennedy-info {
-    font-size: 100%;
-    font-family: PT+ Serif, serif;
-padding-left: 30px;
-padding-top: 50px;
-    font-size: 110%;
-   margin: (0 auto);
-    height: 300px;
-    width: 75%;
-
-   
-
-    position: relative;
-
-}
-/* Kennedy photos
-.kennedy-pics {
-    margin: 30px;
-    border: 1px solid bisque;
-    float: left;
-    width : 25%;
-    display: inline;
-   
-
-}
-.kennedy-pics > img {
-    width: 100%;
-    height: 400px;
-
-}
-.desc {
-
-    padding: 15px;
-    text-align: center;*/
 /*location*/
 
 #location {
@@ -361,6 +324,20 @@ padding-top: 50px;
 
 }
 /*end location*/
+
+/*stowe missal gallery*/
+#sm-gallery{
+    clear: both;
+    line-height: auto;
+  
+    bottom: 100px;
+    
+
+}
+#sm-gallery > img{
+    width:90%;
+    margin-left: 30px;
+}
 
 /*Contact form*/
 /*.castle-background-form {
