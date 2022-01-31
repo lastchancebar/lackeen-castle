@@ -378,11 +378,14 @@ div.desc {
     text-align: center;
     font-size: 110%;
 }
+#final-line{
+    margin-bottom:100px;
+}
 .center  {
     display: block;
-    margin: 20px auto ;
+    margin: 0 auto ;
     
-    width: 80%;
+    width: 50%;
 }
 
 
