@@ -9,6 +9,7 @@
 body {
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: bisque;
+    font-size: 110%;
     font-weight: 300;
     background-color: #00008B;
     background-size: cover;
@@ -282,7 +283,7 @@ margin: 0 auto;
    
 }
 
-
+/*#sm-gallery {#}*/
 
 
 
@@ -310,7 +311,7 @@ margin: 0 auto;
     width: 45%;
 
     float: left;
-    border: 1px ridged rgba(94, 36, 36, 0.9);
+    border: 1px ridge rgba(94, 36, 36, 0.9);
 
 }
 
@@ -326,18 +327,66 @@ margin: 0 auto;
 /*end location*/
 
 /*stowe missal gallery*/
-#sm-gallery{
+/*#sm-gallery{
     clear: both;
     line-height: auto;
   
-    bottom: 100px;
-    
+    bottom: 100px;*/
 
+    #sm-summary{
+        height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    }
+    
+#sm-pics {
+    height: 770px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    clear:both;
+    line-height:auto;
+    bottom: 50px;
 }
-#sm-gallery > img{
-    width:90%;
-    margin-left: 30px;
+
+#sm-pics h2 {
+    color: bisque;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 4px;
+    
+    padding: 20px;
 }
+
+div.sm-gallery{
+    margin: 30px;
+    float: left;
+   
+    width:28.5%;
+}
+
+div.sm-gallery  img {
+   
+    width:100%;
+    height: 500px; 
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 110%;
+}
+.center  {
+    display: block;
+    margin: 20px auto ;
+    
+    width: 80%;
+}
+
+
+
 
 /*Contact form*/
 /*.castle-background-form {
