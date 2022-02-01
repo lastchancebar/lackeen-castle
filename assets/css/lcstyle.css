@@ -107,7 +107,7 @@ h2 {
     }
 
     to {
-        transform: scale(1.05);
+        transform: scale(1.03);
     }
 }
 
@@ -135,6 +135,36 @@ h2 {
     }
 }
  a{
+   
+    color:coral;
+ }
+ #defence-outer {
+    height: 1200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ #castle-defence {
+    clear: left;
+    background: url("../images/lackeen-front.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    width: 100%;
+    
+}
+.zoom {
+    padding:50px;
+    background-image: url("../images/lackeen-front.jpg");
+    transition: transform .2s; /*Animation*/
+    Width:100%;
+    height: auto;
+    margin:0 auto;
+}
+.zoom:hover {
+    transform: scale(1.5);
+}
+ a {
      color:coral;
  }
 #info-text {
@@ -223,6 +253,8 @@ font-size: 200%;
     text-align: right;
 
 }
+.right-about-heading h2 {
+    text-align: left;}
 
 .left-about-heading p {
     padding-top: 5px;
@@ -230,6 +262,18 @@ font-size: 200%;
 
 .right-about-heading p {
     text-align: right;
+    padding-top: 5px;
+}
+
+.right-about-heading-sm {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading-sm  p {
+    text-align: left;
     padding-top: 5px;
 }
 
@@ -334,7 +378,7 @@ margin: 0 auto;
     bottom: 100px;*/
 
     #sm-summary{
-        height: 900px;
+        height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -414,6 +458,11 @@ footer {
     height: 50px;
 
 }
+footer  a {
+    color:#00008B;
+    padding: 20px;
+}
+
 
 .social-networks {
 
@@ -421,7 +470,7 @@ footer {
 
 }
 
-.social-networks>li {
+.social-networks > li {
 
     display: inline;
 }
@@ -433,6 +482,10 @@ footer {
     padding: 5%0 auto;
     color: inherit;
 
+}
+#copyright {
+    float:right;
+    display: inline-block;
 }
 
 /* Media queries*/
@@ -731,6 +784,8 @@ footer {
     color: bisque;
     display: block;
 }
+
+
 
 /*#last-word {
     
