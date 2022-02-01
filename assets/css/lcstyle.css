@@ -361,29 +361,43 @@ margin: 0 auto;
     height: 300px;
     width:200px;
     float:right;
-    margin-right:80px;
+    margin-right:150px;
 }
 #pic-windows {
     background: url('../images/lackeen-little-windows.jpg') no-repeat center center;
     height: 300px;
     width:200px;
     float:left;
-    margin-left:80px;
+    margin-left:150px;
+}
+#pic-machic {
+    background: url('../images/lackeen-mach.jpg') no-repeat center center;
+    height: 300px;
+    width:200px;
+    float:right;
+    margin-right:150px;
+}
+#pic-door {
+    background: url('../images/lackeen-castle-door1.jpg') no-repeat center center;
+    height: 300px;
+    width:200px;
+    float:left;
+    margin-left:150px;
 }
 
 
 .defence-fact-left{
 
-    margin: 100px 50px;
-    width: 50%;
+    margin: 150px 50px;
+    width: 40%;
     height: 300px;
     float:left;
     
 }
 .defence-fact-right{
 
-    margin: 50px;
-    width: 50%;
+    margin: 150px 50px;
+    width: 40%;
     height: 300px;
     float:right;
     
