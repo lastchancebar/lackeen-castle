@@ -139,30 +139,48 @@ h2 {
     color:coral;
  }
  #defence-outer {
-    height: 1200px;
+    
     width: 100%;
     overflow: hidden;
     position: relative;
-}
- #castle-defence {
-    clear: left;
-    background: url("../images/lackeen-front.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 1200px;
-    width: 100%;
+    border: 1px solid bisque;
     
 }
+ #defence-intro {
+text-align:center;
+Margin: 20px;
+
+ }
+ #defence-intro h2{
+     font-size:200%;
+ }
+ #defence-intro p {
+     padding: 0 25%;
+     
+ }
+ /*.defence{
+    clear: left;
+    background: url("../images/lackeen-castle-view.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    
+ }*/
+ 
+ 
+
+
 .zoom {
     padding:50px;
     background-image: url("../images/lackeen-front.jpg");
-    transition: transform .2s; /*Animation*/
+    transition: transform .5s; /*Animation*/
     Width:100%;
     height: auto;
     margin:0 auto;
 }
 .zoom:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
  a {
      color:coral;
@@ -311,22 +329,65 @@ margin: 0 auto;
     border-radius: 50%;
 }
 /* Stowe Missal center pic*/
-#pic-container {
+.pic-container {
     width: 200px;
     height: 300px;
     padding: 20px;
     margin: 0 auto;
     background-color: bisque;
-    border: 1px solid rgba(94, 36, 36, 0.7);
+    border: 2px solid rgba(94, 36, 36, 0.7);
     
 
 }
 #pic-missal {
     background: url('../images/sm-fpage.jpg') no-repeat center center;
-    height: 100%;
+    height: 100%;}
+
+}
+.pic-container-def {
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 2px solid rgba(94, 36, 36, 0.7);
+    
+
+}
    
+
+#pic-outer-wall {
+    background: url('../images/lackeen-castle-view.jpg') no-repeat center center;
+    height: 300px;
+    width:200px;
+    float:right;
+    margin-right:80px;
+}
+#pic-windows {
+    background: url('../images/lackeen-little-windows.jpg') no-repeat center center;
+    height: 300px;
+    width:200px;
+    float:left;
+    margin-left:80px;
 }
 
+
+.defence-fact-left{
+
+    margin: 100px 50px;
+    width: 50%;
+    height: 300px;
+    float:left;
+    
+}
+.defence-fact-right{
+
+    margin: 50px;
+    width: 50%;
+    height: 300px;
+    float:right;
+    
+}
 /*#sm-gallery {#}*/
 
 
@@ -742,7 +803,7 @@ footer  a {
 
     .form-section { 
         clear: left;
-        background: url('../images/lackeen-castle-view.jpg');
+        background: url('../images/lackeencastle7.jpg');
         background-size: cover;
         background-position: center;
     height: 900px;
