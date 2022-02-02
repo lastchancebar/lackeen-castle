@@ -20,7 +20,7 @@ body {
 
 h1,
 h2 {
-    color: rgb(235, 224, 211);
+    color: bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-family: PT+Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -418,55 +418,51 @@ footer a {
     font-size: 110%;
     font-family: eczar, serif;
 
-
-
     text-align: center;
 
-    padding-top: 20px;
-    padding-left: 1px;
+    padding:5px;
 
 
     height: 150px;
-    width: 50%;
+    width: 37.5%;
 
-    top: 500px;
+    top: 600px;
     left: 60px;
 
     background-color: rgba(99, 22, 41, 0.5);
 
     position: absolute;
     border: 1px solid bisque;
-    /*border-radius: 50%;*/
+    border-radius: 5%;
 }
 
 #info-text-mach {
 
-    font-size: 100%;
+    font-size: 110%;
     font-family: eczar, serif;
     text-transform: uppercase;
 
     text-align: center;
 
-    padding-top: 20px;
-    padding-left: 10px;
+    padding: 5px;
 
 
-    height: 120px;
-    width: 50%;
+    height: 180px;
+    width: 37.5%;
 
     top: 300px;
-    right: 60px;
+    right: 30px;
 
     background-color: rgba(99, 22, 41, 0.5);
 
     position: absolute;
     border: 1px solid bisque;
-    /*border-radius: 50%;*/
+    border-radius: 5%;
 }
 
 #info-text-door {
 
-    font-size: 100%;
+    font-size: 110%;
     font-family: eczar, serif;
     text-transform: uppercase;
 
@@ -491,37 +487,39 @@ footer a {
 
 #info-text-intro {
 
-    font-size: 120%;
+    font-size: 110%;
     font-family: eczar, serif;
     text-transform: uppercase;
 
     text-align: center;
 
-    padding-top: 20px;
-    padding-left: 10px;
+    padding:5px;
 
 
     height: 250px;
     width: 40%;
 
-    top: 100px;
+    top: 70px;
     left: 30px;
 
     background-color: rgba(0, 0, 139, 0.7);
 
     position: absolute;
     border: 1px solid bisque;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 
 
-#info-text-window,
-#info-text-mach,
-#info-text-door h3 {
+#info-text-window h2,
+#info-text-mach h2,
+#info-text-door h2,
+#info-text-intro h2 {
 
     text-transform: uppercase;
-    font-size: 300;
+   padding: 0 auto;
+    Letter-spacing: 4px;
+   
 }
 
 #info-text-window,
