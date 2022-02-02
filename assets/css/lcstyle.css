@@ -20,7 +20,7 @@ body {
 
 h1,
 h2 {
-    color: bisque;
+    color: rgb(235, 224, 211);
     text-transform: uppercase;
     letter-spacing: 4px;
     font-family: PT+Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -168,14 +168,15 @@ Margin: 20px;
 
 .zoom {
     padding:50px;
-    background-image: url("../images/lackeen-front.jpg");
-    transition: transform .9s; /*Animation*/
+    /*background-image: url("../images/lackeen-front.jpg");*/
+    transition: transform .5s; /*Animation*/
+    anim
     Width:100%;
     height: auto;
     margin:0 auto;
 }
 .zoom:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
  a {
      color:coral;
@@ -296,17 +297,6 @@ hr {
     margin: 5px 0;
 }
 
-/*
-#eunice-pic {
-    margin-bottom: 20px;
-    width: 33%;
-    float: left;
-}
-#center-about{ 
-    padding-top: 30px;
-    width:33%;
-margin: 0 auto;
-}*/
 #circle-container {
     width: 300px;
     height: 300px;
@@ -322,8 +312,12 @@ margin: 0 auto;
     background: url('../images/lackeen-front.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+
+
 }
 /* Stowe Missal center pic*/
+
+
 .pic-container {
     width: 200px;
     height: 300px;
@@ -356,77 +350,78 @@ margin: 0 auto;
         width: 100%;
         
     }
-    #info-text1 {
+    #info-text-window {
 
-        font-size: 120%;
+        font-size: 110%;
         font-family: eczar, serif;
-        text-transform: uppercase;
+
+       
     
         text-align: center;
     
-        padding-top: 50px;
-        padding-left: 10px;
+        padding-top: 20px;
+        padding-left: 1px;
     
     
-        height: 200px;
-        width: 40%;
+        height: 150px;
+        width: 50%;
     
         top: 500px;
-        left: 100px;
+        left: 60px;
     
-        background-color: rgba(99, 22, 41, 0.7);
+        background-color: rgba(99, 22, 41, 0.5);
     
         position: absolute;
         border: 1px solid bisque;
-        border-radius: 50%;
+        /*border-radius: 50%;*/
     }
-    #info-text2 {
+    #info-text-mach {
 
-        font-size: 120%;
+        font-size: 100%;
         font-family: eczar, serif;
         text-transform: uppercase;
     
         text-align: center;
     
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 10px;
     
     
-        height: 200px;
-        width: 40%;
+        height: 120px;
+        width: 50%;
     
-        top: 250px;
-        right: 70px;
+        top: 300px;
+        right: 60px;
     
-        background-color: rgba(99, 22, 41, 0.7);
+        background-color: rgba(99, 22, 41, 0.5);
     
         position: absolute;
         border: 1px solid bisque;
-        border-radius: 50%;
+        /*border-radius: 50%;*/
     }
-    #info-text3 {
+    #info-text-door {
 
-        font-size: 120%;
+        font-size: 100%;
         font-family: eczar, serif;
         text-transform: uppercase;
     
         text-align: center;
     
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 10px;
     
     
-        height: 200px;
-        width: 40%;
+        height: 150px;
+        width: 50%;
     
-        bottom: 70px;
-        left: 200px;
+        bottom: 120px;
+        left: 80px;
     
-        background-color: rgba(99, 22, 41, 0.7);
+        background-color: rgba(99, 22, 41, 0.5);
     
         position: absolute;
         border: 1px solid bisque;
-        border-radius: 50%;
+        /*border-radius: 50%;*/
     }
     #info-text-intro {
 
@@ -436,7 +431,7 @@ margin: 0 auto;
     
         text-align: center;
     
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 10px;
     
     
@@ -444,9 +439,9 @@ margin: 0 auto;
         width: 40%;
     
         top: 100px;
-        left: 80px;
+        left: 30px;
     
-        background-color: rgba(99, 22, 41, 0.7);
+        background-color: rgba(0, 0, 139, 0.7);
     
         position: absolute;
         border: 1px solid bisque;
@@ -455,12 +450,12 @@ margin: 0 auto;
 
 
     
-    #info-text1, #info-text2, #info-text3 h3 {
+    #info-text-window, #info-text-mach, #info-text-door h3 {
 
         text-transform: uppercase;
         font-size: 300;
     }
-    #info-text1,  #info-text2,  #info-text3, #info-text-intro p {
+    #info-text-window,  #info-text-mach,  #info-text-door, #info-text-intro p {
 
         text-transform: none;
         
