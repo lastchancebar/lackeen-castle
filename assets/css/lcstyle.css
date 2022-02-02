@@ -80,6 +80,7 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
 
 #cover-text,
@@ -138,14 +139,8 @@ h2 {
    
     color:coral;
  }
- #defence-outer {
-    
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    border: 1px solid bisque;
-    
-}
+ 
+
  #defence-intro {
 text-align:center;
 Margin: 20px;
@@ -203,7 +198,7 @@ Margin: 20px;
     bottom: 100px;
     left: 100px;
 
-    background-color: rgba(0, 0, 139, 0.7);
+    background-color: rgba(94, 36, 36, 0.7);
 
     position: absolute;
     border: 1px solid bisque;
@@ -345,14 +340,132 @@ margin: 0 auto;
 
     /*Castle defences*/
 
-    #defence-background-pic{
-        
-        background: url('../images/lackeen-front.jpg') no repeat center center;
-        background-position: center;
-        background-size: cover;
+    #defence-outer {
         height: 1200px;
         width: 100%;
+        overflow: hidden;
+        position: relative;
     }
+
+    .castle-defence-background { 
+        
+        
+        background: url('../images/lackeen-front.jpg') no-repeat center center; 
+        height: 1200px;
+        background-size:cover ;
+        width: 100%;
+        
+    }
+    #info-text1 {
+
+        font-size: 120%;
+        font-family: eczar, serif;
+        text-transform: uppercase;
+    
+        text-align: center;
+    
+        padding-top: 50px;
+        padding-left: 10px;
+    
+    
+        height: 200px;
+        width: 40%;
+    
+        top: 500px;
+        left: 100px;
+    
+        background-color: rgba(99, 22, 41, 0.7);
+    
+        position: absolute;
+        border: 1px solid bisque;
+        border-radius: 50%;
+    }
+    #info-text2 {
+
+        font-size: 120%;
+        font-family: eczar, serif;
+        text-transform: uppercase;
+    
+        text-align: center;
+    
+        padding-top: 50px;
+        padding-left: 10px;
+    
+    
+        height: 200px;
+        width: 40%;
+    
+        top: 250px;
+        right: 70px;
+    
+        background-color: rgba(99, 22, 41, 0.7);
+    
+        position: absolute;
+        border: 1px solid bisque;
+        border-radius: 50%;
+    }
+    #info-text3 {
+
+        font-size: 120%;
+        font-family: eczar, serif;
+        text-transform: uppercase;
+    
+        text-align: center;
+    
+        padding-top: 50px;
+        padding-left: 10px;
+    
+    
+        height: 200px;
+        width: 40%;
+    
+        bottom: 70px;
+        left: 200px;
+    
+        background-color: rgba(99, 22, 41, 0.7);
+    
+        position: absolute;
+        border: 1px solid bisque;
+        border-radius: 50%;
+    }
+    #info-text-intro {
+
+        font-size: 120%;
+        font-family: eczar, serif;
+        text-transform: uppercase;
+    
+        text-align: center;
+    
+        padding-top: 50px;
+        padding-left: 10px;
+    
+    
+        height: 250px;
+        width: 40%;
+    
+        top: 100px;
+        left: 80px;
+    
+        background-color: rgba(99, 22, 41, 0.7);
+    
+        position: absolute;
+        border: 1px solid bisque;
+        border-radius: 50%;
+    }
+
+
+    
+    #info-text1, #info-text2, #info-text3 h3 {
+
+        text-transform: uppercase;
+        font-size: 300;
+    }
+    #info-text1,  #info-text2,  #info-text3, #info-text-intro p {
+
+        text-transform: none;
+        
+    }
+    /*
 
     #outer-wall {
 
@@ -603,7 +716,7 @@ footer  a {
 
 }
 #copyright {
-    float:right;
+    
     display: inline-block;
 }
 
@@ -663,7 +776,7 @@ footer  a {
 
 @media screen and (max-width:850px) {
 
-    #info-text {
+    #info-text1{
 
         font-size: 100%;
         font-family: eczar, serif;
@@ -678,7 +791,7 @@ footer  a {
         height: 300px;
         width: 50%;
 
-        bottom: 130px;
+        bottom: 530px;
         left: 20px;
 
         background-color: rgba(94, 36, 36, 0.7);
