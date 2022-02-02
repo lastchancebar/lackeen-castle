@@ -682,12 +682,12 @@ footer {
     color: #00008b;
     background-color: bisque;
     text-align: center;
-    height: 50px;
+    height: 60px;
 
 }
 footer  a {
     color:#00008B;
-    padding: 20px;
+    padding: 5px 30px;
 }
 
 
@@ -1070,14 +1070,3 @@ footer  a {
     
 
 
-/*#last-word {
-    
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
- color: #00008b;
-    background-color: bisque;
-    text-align: center;
-    height: 50px;
-}*/
