@@ -99,23 +99,8 @@ h6 {
     background-position: center;
     height: 600px;
     width: 100%;
-    /* animates zoom effect on loading page*/
-    animation-name: castle-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
-
-/* create level of zoom for castle*/
-@keyframes castle-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.03);
-    }
-}
-
+   
 .stowe-missal-background {
     clear: left;
     background: url("../images/sm-cover-both.jpg");
@@ -123,14 +108,15 @@ h6 {
     background-position: center;
     height: 600px;
     width: 100%;
-    /* animates zoom effect on loading page*/
-    animation-name: castle-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
+/* animation on opening page*/
 
-/* create level of zoom for castle*/
-@keyframes castle-zoom {
+    animation-name: missal-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
+}
+/* create level of zoom for missal*/
+
+@keyframes missal-zoom {
     from {
         transform: scale(1);
     }
@@ -239,7 +225,7 @@ a {
     float: right;
     line-height: 20px;
     clear: both;
-    margin:20px auto;
+    margin-bottom:50px;
 }
 
 #center-about {
@@ -249,10 +235,15 @@ a {
 
 #right-about {
     
-  margin: 20px auto;
+  padding-top:30px;
     width: 33%;
     float: right;
 
+}
+hr {
+    border-top:1px solid bisque;
+    width:100%;
+    margin: 5px 0;
 }
 
 .right-about-heading {
@@ -260,7 +251,7 @@ a {
     float: left;
     line-height: 20px;
     clear: both;
-    margin: 0 auto;
+    margin-bottom:50px;
 }
 
 .right-about-heading h2 {
@@ -268,9 +259,6 @@ a {
 
 }
 
-.right-about-heading h2 {
-    text-align: left;
-}
 
 .left-about-heading p {
     padding-top: 5px;
@@ -278,22 +266,24 @@ a {
 
 .right-about-heading p {
     text-align: right;
-    padding-top: 5px;
+    
 }
 
 .right-about-heading-sm {
-    width: 85%;
+    width: 70%;
     
     float: left;
     line-height: 20px;
     clear: both;
-    margin:20px 50px 0 auto;
+    margin-bottom: 50px;
 }
 
 .right-about-heading-sm p {
-    text-align: left;
+    text-align: right;
 }
-
+.right-about-heading-sm h2 {
+    text-align: right;
+}
 
 
 
@@ -369,7 +359,10 @@ hr {
     height: 300px;
 
 }
+#directions > h3 {
 
+    padding:0, auto;
+}
 /* footer*/
 
 footer {
