@@ -13,7 +13,6 @@ body {
     font-weight: 300;
     background-color: #00008B;
     background-size: cover;
-
 }
 
 /* headings and logo*/
@@ -201,6 +200,14 @@ a {
 }
 
 .left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px;
+}
+
+.left-about-heading-sm {
     width: 60%;
     float: right;
     line-height: 20px;
@@ -534,7 +541,7 @@ footer > h6{
 /*End castle defence*/
 
 /*Stowe Missal*/
-stowe-missal-background {
+.stowe-missal-background {
     clear: left;
     background: url("../images/sm-cover-both.jpg");
     background-size: cover;
@@ -1022,12 +1029,12 @@ position: absolute;
 }
 #info-text > h2{
     
-    color:transparent;
+    color:rgba(94, 36, 36, 1);
 }
 #lackeen-summary{
     text-align: center;
     margin:0 auto;
-    padding:0 auto;
+    padding:0 ;
 }
 #lackeen summary> h3{
     color: rgba(94, 36, 36, 1);
@@ -1047,6 +1054,15 @@ position: absolute;
 #lackeen-summary{
     height:1250px;
 }
+#visit-intro
+ {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 200%;
+    
+}
+
 
 #info-text-window
 
@@ -1121,4 +1137,53 @@ position: absolute;
        color:transparent;
    }
     
+   #sm-summary {
+    height: 1100px;
+    margin: 0 auto;
+    
+}
+.left-about-heading-sm{
+    width: 85%;
+    text-align: left;
+    
+    line-height: 20px;
+    margin-right:30px;
+    margin-bottom:50px;
+}
+.right-about-heading-sm {
+    width: 85%;
+ 
+    
+    line-height: 20px;
+    clear: both;
+    margin-left:30px;
+    margin-bottom: 50px;
+}
+.right-about-heading-sm p {
+    text-align: left;
+}
+.left-about-heading-sm h2,
+.right-about-heading-sm h2 {
+    text-align: left;
+    padding-bottom:20px;
+}
+#lackeen-intro {
+    text-transform: capitalize;
+}
+#sm-pics{
+    height:1700px;
+}
 
+ div.sm-gallery  {
+    width: 300px;
+    height:500px;
+    margin:5px 30px;
+ }
+ #final-line > img{
+
+    padding-bottom: 30px;
+    max-height: 100px;
+    max-width :100%;
+    background: url=("../images/sm-signoff-big.jpg")
+
+ }
