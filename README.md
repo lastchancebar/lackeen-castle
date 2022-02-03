@@ -1,36 +1,30 @@
 
 LACKEEN CASTLE
 
-Purpose of website
-
-This website, about Lackeen Castle, Co Tipperary is created for the following reasons:
-
-- to provide information about Lackeen Castle, a  relatively unknown historic building, its history, features and location. 
-
-- to bring attention to the Stowe Missal - a priceless manuscript which was found in Lackeen Castle.
-
-- to encourage tourism to the locality and to boost a campaign to bring the Stowe Missal "home", with accompanying media attention.
-
-- to create public interest in the local historical societies and to establish links with other history groups.
 
 
-Another blue button should appear to click: _Open Browser_.
+ Lackeen Castle is a 1,000 year old ruined castle in North Tipperary, Ireland. This site tells the story of Lackeen, and is targeted at tourists and historians worldwide. This website draws together interesting facts and images to inspire people to visit and to find out more.
+ 
+ Here is a link to the <a href=(https://lastchancebar.github.io/lackeen-castle/)>Lackeen Castle</a>website. Enjoy your journey back in time!
 
-In Gitpod you have superuser security privileges by default. Therefore, to educate you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+------<img url="./images/intro-amirespponsive.jpg" alt="Lackeen Castle homepage on 4 different media">
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<h1><Contents</h1>
 
-------
+<h2>User Experience UX</h2>
 
-## Release History
+User Requirements
+
+As a user I want to be able to navigate through the whole site smoothly.
+As a user I want to understand the purpose of the site upon loading it.
+As a user I want to easily be able to contact Lackeen Castle for more information.
+As a user I want to know more about Lackeen Castle and the Stowe Missal.
+As a user I want to know more about Lackeen Castle and the Stowe Missal by using the links provided.
+As a user I want to know how to get to Lackeen Castle.
+As a user I want to connect with Lackeen Castle on social media.
+As a user I want to be able to comment, book a tour and find out if my special requirements if any can be met.
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
