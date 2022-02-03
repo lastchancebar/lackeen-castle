@@ -19,8 +19,7 @@ body {
 
 h1,
 h2,
-h3
- {
+h3 {
     color: bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -29,12 +28,11 @@ h3
     padding-bottom: 20px;
 }
 
-h6
-{
-    color:bisque;
-    
-    
-}    
+h6 {
+    color: bisque;
+
+
+}
 
 #logo {
     float: left;
@@ -104,12 +102,12 @@ h6
     height: 600px;
     width: 100%;
 }
-   
+
 #right-about a {
 
     color: coral;
-    text-decoration:none;
-    font-weight:400;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 
@@ -176,6 +174,30 @@ a {
     border-radius: 50%;
 }
 
+#info-text-fdest {
+
+    font-size: 130%;
+    font-family: eczar, serif;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+
+    height: 200px;
+    width: 40%;
+
+    bottom: 100px;
+    left: 100px;
+
+    background-color: rgba(94, 36, 36, 0.7);
+
+    position: absolute;
+    border: 1px solid bisque;
+    border-radius: 50%;
+}
 
 
 #lackeen-summary {
@@ -204,7 +226,7 @@ a {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .left-about-heading-sm {
@@ -212,7 +234,7 @@ a {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 #center-about {
@@ -221,15 +243,16 @@ a {
 }
 
 #right-about {
-    
-  padding-top:30px;
+
+    padding-top: 30px;
     width: 33%;
     float: right;
 
 }
+
 hr {
-    border-top:1px solid bisque;
-    width:100%;
+    border-top: 1px solid bisque;
+    width: 100%;
     margin: 5px 0;
 }
 
@@ -238,7 +261,7 @@ hr {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .right-about-heading h2 {
@@ -253,12 +276,12 @@ hr {
 
 .right-about-heading p {
     text-align: right;
-    
+
 }
 
 .right-about-heading-sm {
     width: 70%;
-    
+
     float: left;
     line-height: 20px;
     clear: both;
@@ -268,6 +291,7 @@ hr {
 .right-about-heading-sm p {
     text-align: right;
 }
+
 .right-about-heading-sm h2 {
     text-align: right;
 }
@@ -318,8 +342,7 @@ hr {
     width: 100%;
 }
 
-#visit-intro
- {
+#visit-intro {
     text-align: right;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -347,10 +370,12 @@ hr {
     height: 300px;
 
 }
-#directions > h3 {
 
-    padding:0, auto;
+#directions>h3 {
+
+    padding: 0, auto;
 }
+
 /* footer*/
 
 footer {
@@ -370,10 +395,10 @@ footer a {
     padding: 5px 30px;
 }
 
-footer > h6{
-    text-align:right;
-    display:inline;
-    padding:5px;
+footer>h6 {
+    text-align: right;
+    display: inline;
+    padding: 5px;
     margin-top: 0px;
 }
 
@@ -426,7 +451,7 @@ footer > h6{
 
     text-align: center;
 
-    padding:5px;
+    padding: 5px;
 
 
     height: 150px;
@@ -498,7 +523,7 @@ footer > h6{
 
     text-align: center;
 
-    padding:5px;
+    padding: 5px;
 
 
     height: 250px;
@@ -522,10 +547,10 @@ footer > h6{
 #info-text-intro h2 {
 
     text-transform: uppercase;
-   padding: 0 auto;
+    padding: 0 auto;
     Letter-spacing: 4px;
     padding-top: 15px;
-   
+
 }
 
 #info-text-window p,
@@ -548,12 +573,13 @@ footer > h6{
     background-position: center;
     height: 600px;
     width: 100%;
-/* animation on opening page*/
+    /* animation on opening page*/
 
     animation-name: missal-zoom;
     animation-duration: 5s;
     animation-fill-mode: forward;
 }
+
 /* create level of zoom for missal*/
 
 @keyframes missal-zoom {
@@ -636,7 +662,7 @@ div.desc {
 
 #final-line {
     margin-bottom: 100px;
-    font-size:100%;
+    font-size: 100%;
 
 }
 
@@ -990,127 +1016,146 @@ div.desc {
     position: absolute;
     border: 1px solid bisque;
     border-radius: 50%;
-}
-@media screen and (max-width: 426px){
-#logo {
-    font-size:180%;
-    margin: 5px;
-    
-}
-#menu{
-    font-size:90%;
-    text-transform:uppercase;
-    line-height:40px;
-}
-h1 {
-    Padding:5px;
-}
-#menu a:hover {
 
-    border-bottom: 2px solid #fff;
-}
-#menu li{
-    margin-right:60px;
-    float:right;
 }
 
-    
-h2, h3{
-    letter-spacing: 1px;
-    padding-bottom: 5px;
-}
-#info-text{
-    font-size:130%;
-    text-transform: capitalize;
-    color:rgba(94, 36, 36, 1);
-background-color:transparent;
-border:none;
-position: absolute;
-}
-#info-text > h2{
-    
-    color:rgba(94, 36, 36, 1);
-}
-#lackeen-summary{
-    text-align: center;
-    margin:0 auto;
-    padding:0 ;
-}
-#lackeen summary> h3{
-    color: rgba(94, 36, 36, 1);
-}
-    #left-about-heading{
+/*  ++++++++FOR SCREENS 426 and down+++++++++*/
 
-        float:left;
+@media screen and (max-width: 426px) {
+    #logo {
+        font-size: 180%;
+        margin: 5px;
+
     }
-    
-.right-about-heading{
-    Float:right;
+
+    #menu {
+        font-size: 90%;
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+
+    h1 {
+        Padding: 5px;
+    }
+
+    #menu a:hover {
+
+        border-bottom: 2px solid #fff;
+    }
+
+    #menu li {
+        margin-right: 60px;
+        float: right;
+    }
+
+
+    h2,
+    h3 {
+        letter-spacing: 1px;
+        padding-bottom: 5px;
+    }
+
+    #info-text {
+        font-size: 130%;
+        text-transform: capitalize;
+        color: rgba(94, 36, 36, 1);
+        background-color: transparent;
+        border: none;
+        position: absolute;
+    }
+
+    #info-text>h2 {
+
+        color: rgba(94, 36, 36, 1);
+    }
+
+    #lackeen-summary {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #lackeen summary>h3 {
+        color: rgba(94, 36, 36, 1);
+    }
+
+    #left-about-heading {
+
+        float: left;
+    }
+
+    .right-about-heading {
+        Float: right;
+    }
 }
-}#left-about, #right-about{
+
+#left-about,
+#right-about {
     margin: 0 auto;
-    Padding:0 auto;
+    Padding: 0 auto;
 }
-#lackeen-summary{
-    height:1250px;
+
+#lackeen-summary {
+    height: 1250px;
 }
-#visit-intro
- {
+
+#visit-intro {
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
     font-size: 200%;
-    
+
 }
 
 
-#info-text-window
-
-{
-    font-size:90%;
-    padding:0 ;
-        width:60%;
-    margin:0 auto;
-    left:25px;
-    top:600px;
-}
-#info-text-mach{
-    font-size:90%;
-    padding:0 ;
-        width:70%;
-    margin:0 auto;
-    top:20px;
-    right:30px;
+#info-text-window {
+    font-size: 90%;
+    padding: 0;
+    width: 60%;
+    margin: 0 auto;
+    left: 25px;
+    top: 600px;
 }
 
-#info-text-intro{
-    font-size:95%;
-    padding:0 ;
-    height:210px;
-        width:90%;
-        top:300px;
-    margin:0 auto 30;
-    clear:left;
+#info-text-mach {
+    font-size: 90%;
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+    top: 20px;
+    right: 30px;
 }
-#info-text-door{
-    font-size:90%;
-    padding:0 ;
-    height:200px;
-        width:60%;
-    margin:0 auto;
-    left:50px;
+
+#info-text-intro {
+    font-size: 95%;
+    padding: 0;
+    height: 210px;
+    width: 90%;
+    top: 300px;
+    margin: 0 auto 30;
+    clear: left;
+}
+
+#info-text-door {
+    font-size: 90%;
+    padding: 0;
+    height: 200px;
+    width: 60%;
+    margin: 0 auto;
+    left: 50px;
     bottom: 90px;
 
 }
 
-#info-text-window >h2,
-#info-text-mach >h2,
-#info-text-intro >h2,
-#info-text-door >h2{
+#info-text-window>h2,
+#info-text-mach>h2,
+#info-text-intro>h2,
+#info-text-door>h2 {
     text-transform: capitalize;
-    text-decoration-line:1px;
-    letter-spacing:0 ;
+    text-decoration-line: 1px;
+    letter-spacing: 0;
 }
+
 .stowe-missal-background {
     clear: left;
     background: url("../images/sm-cover.jpg");
@@ -1121,69 +1166,118 @@ position: absolute;
     width: 100%;
 }
 
-#info-text h2,  h3{
-
-    color: bisque;
-    text-transform:capitalize;
-    text-align:center;
-    font-size:200%;
-    
+#info-text {
+    top: 20px;
 }
-   #info-text{
-       top:100px;
-   }
 
-   #info-text h3{
-       color:transparent;
-   }
-    
-   #sm-summary {
+#info-text h2 {
+
+    color: rgba(94, 36, 36, 1);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+#info-text {
+    top: 100px;
+}
+
+#info-text h3 {
+    color: transparent;
+}
+
+#sm-summary {
     height: 1100px;
     margin: 0 auto;
-    
+
 }
-.left-about-heading-sm{
+
+.left-about-heading-sm {
     width: 85%;
     text-align: left;
-    
+
     line-height: 20px;
-    margin-right:30px;
-    margin-bottom:50px;
-}
-.right-about-heading-sm {
-    width: 85%;
- 
-    
-    line-height: 20px;
-    clear: both;
-    margin-left:30px;
+    margin-right: 30px;
     margin-bottom: 50px;
 }
+
+.right-about-heading-sm {
+    width: 85%;
+
+
+    line-height: 20px;
+    clear: both;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
 .right-about-heading-sm p {
     text-align: left;
 }
+
 .left-about-heading-sm h2,
 .right-about-heading-sm h2 {
     text-align: left;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
+
 #lackeen-intro {
     text-transform: capitalize;
 }
-#sm-pics{
-    height:1700px;
+
+#sm-pics {
+    height: 1700px;
 }
 
- div.sm-gallery  {
+div.sm-gallery {
     width: 300px;
-    height:500px;
-    margin:5px 30px;
- }
- #final-line > img{
+    height: 500px;
+    margin: 5px 30px;
+}
+
+#final-line>img {
 
     padding-bottom: 30px;
     max-height: 100px;
-    max-width :100%;
+    max-width: 100%;
     background: url=("../images/sm-signoff-big.jpg")
+}
 
- }
+.contact-form>h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 130%;
+}
+
+.join-button {
+    margin: 0 auto;
+}
+
+#info-text-fdest {
+
+    font-size: 130%;
+    font-family: eczar, serif;
+    text-transform: capitalise;
+
+    text-align: center;
+
+    padding: 10px auto;
+
+
+    height: 200px;
+    width: 40%;
+
+    bottom: 100px;
+    left: 30px;
+
+    color: rgba(94, 36, 36, 1);
+    background-color: transparent;
+    position: absolute;
+    border: none;
+
+}
+
+#info-text-fdest>h2 {
+    color: rgba(94, 36, 36, 1);
+}
