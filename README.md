@@ -9,7 +9,7 @@ LACKEEN CASTLE
 
 
 
-------<img url="./images/intro-amirespponsive.jpg" alt="Lackeen Castle homepage on 4 different media">
+------<img url="./readme-img/intro-amirespponsive.jpg" alt="Lackeen Castle homepage on 4 different media">
 
 <h1><Contents</h1>
 
@@ -55,7 +55,7 @@ I chose fonts which conveyed history -'Eczar' for headings and 'PT+ Serif' for c
 
 Sited at the top of all the pages in the site, it is nearly fully responsive and contains links to all  bar one of the pages of the site to enable ease of navigation in one convenient location.
 
-<img url='./images/lackeennavbar.jpg' alt="lackeen castle navigation bar">
+<img url='./readme-img/lackeennavbar.jpg' alt="lackeen castle navigation bar">
 
 
 Home page
@@ -101,6 +101,9 @@ Github - used to host and edit the website.
 
 Back to top
 
+Testing
+Please refer to here for more information on testing Wawas Woods.
+
 Deployment
 
 To deploy the project
@@ -113,3 +116,55 @@ Once in Settings, navigate to the Pages tab on the left hand side.
 Under Source, select the branch to master, then click save.
 
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+
+<img url='./readme-img/gitdeploy.png' alt="screenshot of deployment of project on github">
+
+To fork the repository on GitHub
+
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+
+Log in to GitHub and locate the repository.
+On the right hand side of the page inline with the repository name is a button called 'Fork', click on the button to create a copy of the original repository in your GitHub Account.
+
+<img url='./readme-img/gitfork.png' alt="screenshot of forking of project on github">
+
+To create a local clone of this project
+
+The method from cloning a project from GitHub is below:
+
+Under the repository’s name, click on the code tab.
+In the Clone with HTTPS section, click on the clipboard icon to copy the given URL.
+
+<img url='./readme-img/gitclone.png' alt="screenshot of cloning of project on github">
+
+In your IDE of choice, open Git Bash.
+
+Change the current working directory to the location where you want the cloned directory to be made.
+
+Type git clone, and then paste the URL copied from GitHub.
+
+Press enter and the local clone will be created
+
+
+Credits
+
+Content
+<ul>
+<li>The fonts came from Google</li>
+<li>The map is embedded from Google Maps</li>
+<li>The icons came from Font Awesome</li>
+<li>The form destination page came from a repository on Github via a suggestion from my mentor</li>
+</ul>
+Media
+
+The Lackeen Castle images came from  Jim Dempsey, author of <a src="http://www.megalithicireland.com/"> Megalithic Ireland. I sought his permission by email to use these pictures and intend to acknowledge him .
+
+The Stowe Missal pictures came from the <a src="https://www.ria.ie/"> Royal Irish Academy</a> website. Copies are available to students at a small fee.
+
+
+Acknowledgements
+
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, and all at the Code Institute for their help and support especially Kasia, my course administrator. I hope website this sparks a tourism boom to North Tipperary!
+
+Ewan Colquhoun 2021.
