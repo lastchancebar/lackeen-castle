@@ -26,71 +26,90 @@ As a user I want to know how to get to Lackeen Castle.
 As a user I want to connect with Lackeen Castle on social media.
 As a user I want to be able to comment, book a tour and find out if my special requirements if any can be met.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Wireframes
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+As I was not familiar enough with Balsamiq, I did not persist with  it in planning my project, but this project journey has tught me the value of planning with wireframes and I will do so in future and save a lot of time.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Site Structure
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Lackeen Castle website has 5 pages. The <a url=(https://github.com/lastchancebar/lackeen-castle/blob/main/index.html)>home page</a> is the default landing page. The <a url=(https://github.com/lastchancebar/lackeen-castle/blob/main/castledef2.html)>castle defences,<a url=(https://github.com/lastchancebar/lackeen-castle/blob/main/stowemissal.html)>Stowe Missal</a> and <a url=(https://github.com/lastchancebar/lackeen-castle/blob/main/contact.html)>Contact/guided tours pages are accessable from the navigation menu. There is also a <a url=(https://github.com/lastchancebar/lackeen-castle/blob/main/formdestination.html)>form destination/thank you</a> page which loads when the reader submits the contact/booking form.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+I did not include a back to top arrow as I designed the website on a big screen and didnt realise the need for this aarrow until I was amending the dsign for a mobile phone screen where it is very necessary. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Design choices
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Typography
+I chose fonts which conveyed history -'Eczar' for headings and 'PT+ Serif' for content, both on Google fonts which is shown at top of CSS file. Both fonts fall back to serif so they complement one another. As serif fonts it would not be difficult to substitute them in the event of one or both not being available .
+ 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ Colour Scheme
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+ I chose #00008b Navy blue for background to inspire history and learning.
+ I chose Bisque - a warm cream-white, for text, a good contrast to the navy background.
+ I also used a dark red with 0.7 opacity for information bubbles which were on top of images.
+ Coral was used to highlight clicable links in content. It was a bit too bright but more visible thatn several yellows I tried.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ Navigation Menu
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Sited at the top of all the pages in the site, it is nearly fully responsive and contains links to all  bar one of the pages of the site to enable ease of navigation in one convenient location.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<img url='./images/lackeennavbar.jpg' alt="lackeen castle navigation bar">
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+Home page
+ 
+This page introduces the castle, its age, owners, defence features aand a manuscript that was found in the walls. There arelinks in the content tio the defence page and store missal page which fllowThe reader is invited to visit the castle a map and directions are set out.
 
-## FAQ about the uptime script
+Defences
 
-**Why have you added this script?**
+This page is educational, inviting the reader to look more closely at the stone walls of the castle and to reflect of life in medieval times in Ireland.  Defence features  described in this page are narrow windows, machicolations, and of course, the  murder hole secreted above the door of the castle. This page is to whet the readers' interest and also as a learniing tool, might encourage school visits to the area.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Stowe Missal
 
-**How will this affect me?**
+This quietly famous manuscript is on a par with the Books of Kells,  yet not many people know about it. The purpose of this page is to tell the world,  display the beautiful penmanship  and the craftwork in the Reliquary and encourage people to learn more about their past and visit the area, bossting the local rural economy.  
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Contact /Guided tour booking
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The 4th page is a contact/booking form to encourage booking a guided tour of the castle by the local historian. This will improve the visitors experience who will be encouraged to use social media to spread the word.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Form Destination page
 
-**So….?**
+This page loads when details are submitted in the contact form. It thanks the reader and promises to contact them soon.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Footer
 
-**Can I opt out?**
+Contains social media links. To enhance the UX the links open in other tabs.
+The social media presence will help the user to keep up to date with events happening around Lackeen Castle and the Stowe Missal. It will also encourage them to connect with Lackeen Castle and they will see easily other peoples reactions to the visitor experience.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Future features
 
-**Anything more?**
+<li> An online shop for souvenirs, artwork based on Lackeen and the Stowe Missal  t shirts  and Tpperary/ Ireland memorabilia amd and books and periodicals  historians</li>
+<li> online booking with payment on booking for guided tours</li>
+<li>Live streaming of talks given by local historical society and historical plays by local drama group</li>
+<li>O Kennedy family tree page.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Technologies used
 
----
+HTML5 - provides the content and structure for the website.
+CSS - provides the styling.
+Balsamiq - used to create the wireframes.
+Gitpod - used to deploy the website.
+Github - used to host and edit the website.
 
-Happy coding!
+Back to top
+
+Deployment
+
+To deploy the project
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+
+In the GitHub repository, navigate to the Settings tab.
+
+Once in Settings, navigate to the Pages tab on the left hand side.
+
+Under Source, select the branch to master, then click save.
+
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
