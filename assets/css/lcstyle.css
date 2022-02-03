@@ -1022,12 +1022,13 @@ h1{padding:20px;}
 
     }
 
-    #menu {
-        font-size: 80%;
+    #menu li {
+        font-size: 50%;
         letter-spacing:none;
-        line-height: 20px;
-        text-transform:uppercase;
-        margin:0 auto;
+        line-height: 5px;
+        text-transform:capitalise;
+        margin:0 10px;
+        padding:0;
         float:left;
 
     }
@@ -1066,24 +1067,30 @@ h1{padding:20px;}
 
         color: rgba(94, 36, 36, 1);
     }
+#lackeen-intro{
 
+    text-align: center;
+}
     #lackeen-summary {
         text-align: center;
-        margin: 0 auto;
+        margin: 0 50px 0 20px;
         padding: 0;
+        height: 1300px;
     }
 
-    /*#lackeen summary>h3 {
-        color: rgba(94, 36, 36, 1);
-    }*/
+    
 
     #left-about-heading {
 
-        float: left;
+        text-align:center;
+        margin-right: 20px;
     }
 
-    .right-about-heading {
-        Float: left;
+    .right-about-heading h2{
+        text-align:center;
+    }
+    .right-about-heading  p{
+        text-align:center;
     }
 
     #left-about,
@@ -1137,8 +1144,8 @@ h1{padding:20px;}
         padding: 0;
         width: 70%;
         margin: 0 auto;
-        top: 20px;
-        right: 30px;
+        top: 300px;
+        right: 10px;
     }
 
     #info-text-intro {
@@ -1146,7 +1153,8 @@ h1{padding:20px;}
         padding: 0;
         height: 210px;
         width: 90%;
-        top: 300px;
+        top: 10px;
+        right:30px;
         margin: 0 auto 30;
         clear: left;
     }
@@ -1181,13 +1189,19 @@ h1{padding:20px;}
         width: 100%;
     }
 
+
+    #info-text-sm{
+        Padding:0;
+        left: 50px;
+    }
     #info-text-sm h2,
     #info-text-sm h3 {
 
 
-        text-transform: capitalise;
-        text-align: left;
+        font-size: 110%;
+        text-align: center;
         color: bisque;
+        left:50px;
 
 
 
@@ -1221,9 +1235,14 @@ h1{padding:20px;}
     }
 
    #sm-summary {
-        height: 1100px;
+        height: 1200px;
         margin: 0 auto;
 
+    }
+    #sm-pics h2 {
+
+        text-transform: capitalize;
+        letter-spacing:none;
     }
 
     .left-about-heading-sm {
