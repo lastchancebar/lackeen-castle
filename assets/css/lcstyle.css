@@ -20,8 +20,8 @@ body {
 
 h1,
 h2,
-h3,
-h6 {
+h3
+ {
     color: bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,7 +30,12 @@ h6 {
     padding-bottom: 20px;
 }
 
+h6
+{
+    color:bisque;
     
+    
+}    
 
 #logo {
     float: left;
@@ -62,7 +67,7 @@ h6 {
 
 #menu a:hover {
 
-    border-bottom: 2px solid bisque
+    border-bottom: 2px solid bisque;
 }
 
 #menu li {
@@ -331,8 +336,9 @@ hr {
     width: 100%;
 }
 
-#visit-intro {
-    text-align: center;
+#visit-intro
+ {
+    text-align: right;
     margin: 0 auto;
     padding-bottom: 20px;
     font-size: 200%;
@@ -978,3 +984,27 @@ div.desc {
     border: 1px solid bisque;
     border-radius: 50%;
 }
+@media screen and (max-width: 426px){
+#logo {
+    font-size:180%;
+    margin: 5px;
+    
+}
+#menu{
+    font-size:80%;
+    text-transform:uppercase;
+    line-height:40px;
+}
+h1 {
+    Padding:5px;
+}
+#menu a:hover {
+
+    border-bottom: 2px solid #fff;
+}
+#menu li{
+    margin-right:60px;
+    float:right;
+}
+}
+    
