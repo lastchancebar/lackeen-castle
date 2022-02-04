@@ -1,87 +1,134 @@
-@import url("https://fonts.googleapis.com/css2?family=Eczar&family=PT+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500;600&family=PT+Serif&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: bisque;
-    font-size: 110%;
-    font-weight: 300;
     background-color: #00008B;
     background-size: cover;
 }
 
-/* headings and logo*/
+body> section{ 
+    max-width:2000px;
+    margin:auto;
+}
 
-h1,
-h2,
-h3 {
+a{
+    text-decoration: none;
+}
+/* Headings and logo*/
+
+
+h1{
     color: bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-family: PT+Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    ;
-padding-bottom:20px;
-}
-
-h6 {
-    color: bisque;
-
+    font-family: 'Eczar', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:300%;
+    text-decoration: none;
 
 }
+
 
 #logo {
     float: left;
     color: bisque;
-    font-family: Eczar, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 270%;
-    margin-left: 30px;
+    font-weight:bold;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    color:bisque;
+    text-align:center;
+
+}
+h3 {
+    font-family: 'PT Serif', serif;
+    color:bisque;
+    text-align:center;
 }
 
 
+h2 {
+    text-align: center;
+    padding: 40px;
+    font-size: 300%;
+}
+
+h3 {
+    font-size: 200%;
+    padding: 30px;
+    
+}
+#title-text > h3 {
+    font-size: 60%;
+}
+
+#title-text > h2 {
+    font-size: larger;
+    padding: 0px;
+}
+
+/* navigation*/
+
 
 #menu {
-    letter-spacing: 2px;
-    font-size: 110%;
+    float:right;
+    letter-spacing:4px;
+    font-size:150%;
+    text-decoration:none;
+}
+#menu > li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
 
 
+.navlink {
+    color:bisque;
+    font-family: 'eczar',serif;
+
+}
+/* enhances the UX by providing feedback when the cursor is over the icon */
+
+.navlink:hover {
+
+    border-bottom: 2px solid bisque;
+}
+#active{
+    border-bottom: 2px solid bisque;
 }
 
 #menu,
 #logo {
 
-    line-height: 75px;
+    line-height: 100px;
 }
 
-#menu a {
-    text-decoration: none;
+#booking-link a {
+    text-decoration: inherit;
     color: inherit;
+    font-style:italic;
 }
+/* enhances the UX by providing feedback when the cursor is over the icon */
 
-#menu a:hover {
-
-    border-bottom: 2px solid bisque;
+#booking-link:hover {
+    border-bottom: 1px solid lightblue;
 }
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-.active {
-    border-bottom: 2px solid bisque;
 
     /* End Nav bar*/
-}
 
-/* home page 81-*/
 
-#summary-outer {
+/* Main iage and text*/
+
+#castle-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -89,10 +136,6 @@ h6 {
 
 }
 
-#cover-text,
-#covertext h2 {
-    color: #00008B;
-}
 
 .castle-background {
     clear: left;
@@ -103,6 +146,65 @@ h6 {
     width: 100%;
 }
 
+#castle-title{
+
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding:10px;
+
+
+    height: 350px;
+    width: 48%;
+
+    bottom: 100px;
+    left:30px;
+    position: absolute;
+
+    background-color: rgba(94, 36, 36, 0.4);
+    border: 2px solid bisque;
+    border-radius:5%;}
+
+    /* about lackeen*/
+    #about-lackeen {
+        height:900px;
+    }
+
+
+#about-lackeen-text {
+    float: left;
+    padding-top: 20px;
+    width: 50%;
+    font-size: 120%;
+    max-width: 45%;
+    padding-left: 30px;
+    color:bisque;
+}
+    
+
+#about-lackeen-image {
+    float: right;
+    width: 40%;
+    max-height: 400px;
+    margin: 20px 50px 0px 0px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+#about-lackeen-image > img {
+    height: auto;
+    width: 100%;
+}
+
+#about-lackeen-text > p {
+    padding-left: 20px;
+    max-width: 95%;
+}
+
+#about-lackeen > h2 {
+    padding-bottom: 15px;
+}
 #right-about a {
 
     color: coral;
@@ -149,30 +251,7 @@ a {
     color: coral;
 }
 
-#info-text {
 
-    font-size: 130%;
-    font-family: eczar, serif;
-    text-transform: uppercase;
-
-    text-align: center;
-
-    padding-top: 20px;
-    padding-left: 10px;
-
-
-    height: 200px;
-    width: 40%;
-
-    bottom: 100px;
-    left: 100px;
-
-    background-color: rgba(94, 36, 36, 0.7);
-
-    position: absolute;
-    border: 1px solid bisque;
-    border-radius: 50%;
-}
 
 #info-text-sm {
 

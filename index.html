@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<header>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=dev ice-width, initial-scale=1.0">
@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="assets/css/lcstyle.css">
 
 
-    <title>Lackeen Castle, Co. Tipperary</title>
-</header>
+    <title><i class="fas fa-chess-rook"></i>Lackeen Castle</title>
+</head>
 
 <body>
     <!--Header banner for all pages-->
@@ -27,85 +27,80 @@
         <!-- navigation bar-->
         <nav>
             <ul id="menu">
-                <li><a href="contact.html" aria-label="Go to the contact and booking page"> Tours</a></li>
-                <li><a href="stowemissal.html" aria-label="Go to the Stowe Missal page">Stowe Missal</a></li>
-                <li><a href="castledef2.html" aria-label="Go to the castle defences page"> Defences</a></li>
-                <li><a href="index.html" aria-label="Go to the Home page">Home</a></li>
-
-
-
+                <li>
+                    <a href="contact.html" aria-label="Go to the contact and booking page"> Tours</a>
+                </li>
+                <li>
+                    <a href="stowemissal.html" class="navlink" aria-label="Go to the Stowe Missal page">Stowe Missal</a>
+                </li>
+                <li>
+                    <a href="castledef2.html" class="navlink" aria-label="Go to the castle defences page"> Defences</a>
+                </li>
+                <li>
+                    <a href="index.html"  id="active" class="navlink" aria-label="Go to the Home page">Home</a>
+                </li>
             </ul>
         </nav>
-        <!--End nav bar-->
-    </header>
+   </header>
+
+
+  
 
     <!--Intro picture and headline-->
 
-    <section id="summary-outer">
-        <div class="castle-background"></div>
-        <div id="info-text">
+    <section id="castle-outer">
+        <div class="castle-background">
+        <div id="castle-title">
             <h2> Lackeen Castle</h2>
 
-            <p>fortress of O' Kennedy family</p>
+            <h3>fortress of the O' Kennedys</h3>
 
-            <p>Home of the Stowe Missal</p>
+            <h3>Home of the Stowe Missal</h3>
 
 
         </div>
+        </div>
+        
     </section>
 
     <!-- Lackeen Castle facts-->
 
-    <section id="lackeen-summary">
-        <h2 id="lackeen-intro">Lackeen Castle -treasure of North Tipperary</h2>
+    <section id="about-lackeen" aria-labelledby="about-lackeen-text about-lackeen-image">
+        <h2>About Lackeen Castle</h2>
 
-        <div id="left-about">
-            <div class="left-about-heading">
-                <h2>1000 years old</h2>
-                <hr>
-                <p>Built at the time that the Normans invaded Ireland. You can
-                    still climb to the top to see the green fields that surrond Lackeen.</p>
-            </div>
-
-            <div class="left-about-heading">
-                <h2>The O'Kennedys </h2>
-                <hr>
-                <p>The O'Kennedy family descended from kings and are well-known in politics and the arts across
-                    the world.</p>
-            </div>
+        <div id="about-lackeen-text">
+            
+            <p>Lackeen Castle, in North Tipperary, was built by the O'Kennedys in the 11th century, about the Normans invaded Ireland.</li>
+            The O'Kennedy family descended from the High king, Brian Ború, and are well-known in politics and the arts across
+                the world.</p>
+             <br>   
+            <p>The castle, a tower house,  has some interesting features built in to deter invaders. Click <a
+                href="castledef2.html" aria-label="Go to the castle defence page">here</a> to
+            find out how the O' Kennedys dealt with unwelcome visitors.</p>
+          <br>  <p>A priceless manuscript - the <a href="stowemissal.html" aria-label="Go to the Stowe Missal page"><em>Stowe Missal</em></a> -was found
+                hidden in the castle walls 300 years ago.
+                The book was written nearby over 1,000 years ago, and has a beautifully ornate storage box or
+                reliquary.</p>           
         </div>
 
-        <div id="right-about">
-            <div class="right-about-heading">
-                <h2> Defences</h2>
-                <hr>
-                <p>This tower has some interesting features built in to deter invaders. Click <a
-                        href="castledef2.html">here</a> to
-                    find out.</p>
-            </div>
-
-            <div class="right-about-heading">
-                <h2>Stowe Missal</h2>
-                <hr>
-                <p>A priceless manuscript - the <a href="stowemissal.html"><em>Stowe Missal</em></a> -was found
-                    hidden in the castle walls 300 years ago.
-                    The book was written nearby over 1,000 years ago, and has a beautifully ornate storage box or
-                    reliquary.
-                </p>
-            </div>
+            <div id="about-lackeen-image">
+                
+                <img src="assets/images/jfk.jpg" alt="John F. Kennedy, US president, smiling at a podium">
+            <figcaption>John F. Kennedy,  35th and youngest President of America. </figcaption>
+        
         </div>
+</section>
+  
+        
 
-        <div id="center-about">
-            <div id="circle-container">
-                <div id="circle-cover-castle"></div>
-            </div>
-        </div>
-    </section>
+       
 
-    <!--End facts-->
+            
+        
 
+   
 
-    <!--Location-->
+    <!--Location
 
     <section id="location">
         <h2 id="visit-intro">Visit Lackeen castle</h2>
@@ -134,7 +129,7 @@
             </li>
         </ul>
     </section>
-    <!--End location-->
+    End location-->
 
     <!--footer-->
 
