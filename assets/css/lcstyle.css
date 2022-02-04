@@ -783,36 +783,51 @@ h1{padding:20px;}
     }
 
     #lackeen-summary {
-        text-align: center;
-        margin: 0 auto;
-        padding: 0;
-
-
+        padding:0;
     }
 
     #lackeen-intro {
-        padding: 30px 0;
+        padding: 30px 20px;
         margin: 0;
+        font-size:180%;
+        letter-spacing: 1px;
 
     }
+    #left-about{
+        clear:right;
+        width:80%;
+        left:30px;
+        margin:0 0 0 0px;
+        padding:0 0 0 30px;
+    }
+
 
    
-    #left-about-heading {
-
-        float: left;
+    .left-about-heading h2{
+text-align: center;
+    }
+    .left-about-heading p{
+        text-align: center;
+      
+    }
+    #right-about{
+        height:250px;
+        clear:right;
+        width:80%;
+    
+        margin:0 0 0 50px;
+        padding: 20px 20px 30px 20px;
     }
 
-    .right-about-heading {
-        Float: right;
-    }
-
-    #left-about,
-    #right-about {
-        margin: 0 auto;
-        Padding: 0 auto;
-        width:100%;
+    .right-about-heading p {
+        text-align:center;
         
+
     }
+    .right-about-heading h2{
+        text-align: center;
+    }
+
 
     #lackeen-summary {
         height: 1150px;
@@ -830,79 +845,51 @@ h1{padding:20px;}
 
     }
 
-    #directions {
-        font-size: 100%;
-    }
-}
-
-/* media queries for screens 425px and lower*/
-
-/* hamburger menu TODO
-@media screen and (max-width:425px) {
-
-
-
-    #info-text {
-
-        font-size: 100%;
-        font-family: eczar, serif;
-
-        font-weight: 100;
-        text-transform: uppercase;
-        text-align: center;
-
-        padding: 0 auto;
-
-        height: 300px;
-        width: 50%;
-
-        bottom: 130px;
-        left: 20px;
-
-        background-color: rgba(94, 36, 36, 0.7);
-
-        position: absolute;
-        border: 2px solid bisque;
-        border-radius: 50%;
-    }
-
-    #summary-outer #castle-background {
-        height: 300px;
-    }
-
-    #lackeen-summary {
-        height: 1100px;
-    }
-
-    #lackeen-intro,
     #visit-intro {
-        font-size: 120%;
-        text-transform: capitalize;
-        font-family: eczar, serif;
-        font-weight: 400;
-
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        font-size: 200%;
 
     }
+    hr {
+        border-top: 1px solid bisque;
+        width: 100%;
+        margin: 5px 0;
+    }
 
+    #location {
+        height: 600px;
+    }
 
+    #map,
+    #directions {
+        width: 100%;
+        margin-left: 5px;
+        padding: 0 auto;
+    }
+    #directions {
+        text-align: center;
+        font-size: 100%;
+    }
 
+}
+#info-text-window {
 
-    .left-about-heading h2,
-    .right-about-heading h2 {
+    height:220px;
+}
+#info-text-mach {
 
-        font-size: 110%;
-        text-transform: capitalize;
-        font-family: eczar, serif;
-        font-weight: 300;
+    height:250px;
+}
+#info-text-intro {
 
-    }*-*/
+    height:320px;
+}
+#info-text-door {
 
-  
-
-    
-
-   
-
+    height:220px;
+}
 
 
 /*FORM*/
