@@ -888,10 +888,51 @@ text-align: center;
 }
 #info-text-door {
 
+
     height:220px;
+
+}
+#info-text-sm{
+    background-color:transparent;
+    border:none;
+    
+
+}
+.left-about-heading-sm {
+    width:80%;
+    clear: right;
+
+}.right-about-heading-sm h2{
+    text-align:left;
+    margin-bottom: 5px;
+    width:80%;
+    
+}
+.right-about-heading-sm p {
+    text-align: left;
+    margin-top: 5px;
 }
 
 
+
+.right-about-heading-sm {
+    width:80%;
+    
+}
+#sm-summary{
+    height:650px;
+    
+}#sm-pics{
+    height:1500px;
+}
+
+
+.sm-gallery >img {
+
+    width:100%;
+    height:450px;
+    margin:20px auto;
+}
 /*FORM*/
 
 .form-section {
