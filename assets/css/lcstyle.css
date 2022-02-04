@@ -66,6 +66,11 @@ h3 {
     padding: 30px;
     
 }
+a{ 
+    color: coral;
+}
+
+
 #title-text > h3 {
     font-size: 60%;
 }
@@ -116,6 +121,8 @@ h3 {
     text-decoration: inherit;
     color: inherit;
     font-style:italic;
+    
+    font-size: larger;
 }
 /* enhances the UX by providing feedback when the cursor is over the icon */
 
@@ -126,7 +133,7 @@ h3 {
     /* End Nav bar*/
 
 
-/* Main iage and text*/
+/* Main image and text*/
 
 #castle-outer {
     height: 600px;
@@ -152,13 +159,13 @@ h3 {
     text-transform: uppercase;
     text-align: center;
 
-    padding:10px;
+    padding:1px;
 
 
     height: 350px;
     width: 48%;
 
-    bottom: 100px;
+    bottom: 120px;
     left:30px;
     position: absolute;
 
@@ -168,7 +175,7 @@ h3 {
 
     /* about lackeen*/
     #about-lackeen {
-        height:900px;
+        height:600px;
     }
 
 
@@ -288,7 +295,7 @@ iframe {
 
 
 
-
+/*
 #right-about a {
 
     color: coral;
@@ -322,7 +329,7 @@ iframe {
     transition: transform .5s;
     /*Animation*/
 
-    Width: 100%;
+    /*Width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -521,7 +528,7 @@ hr {
 
 }
 
-/*location*/
+/*location
 
 #location {
     height: 400px;
@@ -557,24 +564,20 @@ hr {
     font-size: 100%;
     height: 300px;
 
-}
+}*/
 
-#directions>h3 {
 
-    padding: 0, auto;
-}
 
 /* footer*/
 
 footer {
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
-    color: bisque;
-    background-color: #00008b;
+
     text-align: center;
-    height: 80px;
+    height: 150px;
 
 }
 
@@ -583,37 +586,47 @@ footer a {
     padding: 5px 30px;
 }
 
-footer>h6 {
-    text-align: right;
-    display: inline;
-    padding: 5px;
-    margin-top: 0px;
-}
+
 
 
 .social-networks {
+    padding-top:15px;
+    height:75px;
 
     text-align: center;
 
 }
 
-.social-networks>li {
+.social-networks > li {
 
     display: inline;
 }
 
 .social-networks i {
 
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%0 auto;
-    color: inherit;
+    font-size: 140%;
+    margin: 25px;
+    padding: 30px;
+    color: bisque;}
 
+    /*enhanced UX with feedback over the icons*/
+
+.social-networks i:hover {
+        transform: scale(1.3,1.3);
+    }
+
+footer > h5{
+    text-align:right;
+    display: inline;
+    padding: 5px;
+    margin-top:120%;
+    font-style: italic;
+    color:bisque;
 }
 
 
 
-/*Castle defences*/
+/*Castle defences
 
 #defence-outer {
     height: 1200px;
@@ -752,9 +765,73 @@ footer>h6 {
 }
 
 /*End castle defence*/
+/*
+Stowe Missal*/
 
-/*Stowe Missal*/
-.stowe-missal-background {
+#projects h3 {
+    padding: 30px;
+    background-color: rgba(27, 61, 47, 0.7);
+    color: #fdf9ee;
+    text-transform: uppercase;
+}
+
+#project-one-container, #project-three-container {
+    display: block;
+    width: 100%;
+    height: auto;   
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 83px;
+}
+
+#project-two-container {
+    display: block;
+    width: 100%;
+    min-height: 500px;
+    height: auto;   
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 83px;
+}
+
+#projects p {
+    font-size: larger;
+}
+
+#projects i, #inspiration i {
+    font-size: 70%;
+    padding: 0px 15px 0px 15px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+#cots-p, #walker-p {
+    padding-left: 55%;
+    padding-right: 5%;
+    position: absolute;
+    top: 17%;
+    right: 30px;
+}
+
+#cots-list {
+    padding-left: 60%;
+    padding-right: 5%;
+    margin-top: 5px;
+}
+
+#height-p {
+    padding-left: 5%;
+    padding-right: 45%;
+    position:absolute;
+    top: 17%;
+}
+/*.stowe-missal-background {
     clear: left;
     background: url("../images/sm-cover-both.jpg");
     background-size: cover;
@@ -901,9 +978,9 @@ h1{padding:20px;}
         width: 80%;
     }
 
-}
+}*/
 
-/* Media query  850px and lower*/
+/* Media query  850px and lower
 
 @media screen and (max-width:850px) {
 
@@ -1202,9 +1279,9 @@ text-align: center;
     border: 1px solid bisque;
     border-radius: 50%;
 
-}
+}*/
 
-/*  ++++++++FOR SCREENS 426 and down+++++++++*/
+/*  ++++++++FOR SCREENS 426 and down+++++++++
 
 @media screen and (max-width: 426px) {
     #logo {
@@ -1526,7 +1603,7 @@ text-align: center;
     }
 
     #info-text-fdest>h2 {
-        color: rgba(94, 36, 36, 1);
-    }
+        color: rgba(94, 36, 36, 1);*/
+    
 
-}
+    
