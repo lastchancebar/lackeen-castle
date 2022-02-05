@@ -265,11 +265,119 @@ iframe {
 }
 
 
+/* ***********stowe missal***/
+
+#sm-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
 
 
+.sm-background {
+    clear: left;
+    background: url("../images/sm-cover-both.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#sm-title{
+
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding:1px;
 
 
+    height: 350px;
+    width: 48%;
 
+    bottom: 120px;
+    left:30px;
+    position: absolute;
+
+    background-color: rgba(94, 36, 36, 0.4);
+    border: 2px solid bisque;
+    border-radius:5%;}
+
+ /* about stowe missal*/
+ #about-sm {
+    height:1200px;
+}
+
+
+#about-sm-text {
+float: left;
+padding-top: 50px;
+width: 60%;
+font-size: 120%;
+max-width: 50%;
+padding-left: 30px;
+color:bisque;
+}
+
+
+#about-sm-image {
+float: right;
+width: 35%;
+max-height: 600px;
+margin: 20px 50px 0px 0px;
+overflow: hidden;
+border-radius: 40px;
+}
+
+#about-sm-image > img {
+height: auto;
+width: 90%;
+}
+
+#about-sm-text > p {
+padding-left: 20px;
+max-width: 95%;
+}
+
+#about-sm > h2 {
+padding-bottom: 15px;
+}
+
+#about-sm-cover-text {
+    text-align: left;
+    float: right;
+    padding-top: 50px;
+    width: 60%;
+    font-size: 120%;
+    max-width: 50%;
+    padding-right: 50px;
+    color:bisque;
+    }
+    
+    
+    #about-sm-image {
+    float: left;
+    width: 40%;
+    max-height: 600px;
+    margin: 20px 0px 0px 50px;
+    overflow: hidden;
+    border-radius: 40px;
+    }
+    
+    #about-sm-cover-image > img {
+    height: 400px;
+    width: 90%;
+    }
+    
+    #about-sm-cover-text > p {
+    padding-right: 20px;
+    max-width: 95%;
+    }
+    
+   
+    
 
 
 
