@@ -22,7 +22,7 @@ a{
     text-decoration: none;
 }
 /* Headings and logo*/
-
+p{ color: bisque;}
 
 h1{
     color: bisque;
@@ -404,30 +404,10 @@ padding-bottom: 15px;
 
 
 /*
-#right-about a {
-
-    color: coral;
-    text-decoration: none;
-    font-weight: 400;
-}
 
 
-#defence-intro {
-    text-align: center;
-    Margin: 20px;
 
-}
-
-#defence-intro h2 {
-    font-size: 200%;
-}
-
-#defence-intro p {
-    padding: 0 25%;
-
-}
-
-
+*/
 
 
 
@@ -437,7 +417,7 @@ padding-bottom: 15px;
     transition: transform .5s;
     /*Animation*/
 
-    /*Width: 100%;
+    Width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -446,37 +426,11 @@ padding-bottom: 15px;
     transform: scale(1.1);
 }
 
-a {
-    color: coral;
-}
 
 
 
-#info-text-sm {
 
-    font-size: 130%;
-    font-family: eczar, serif;
-    text-transform: uppercase;
-
-    text-align: center;
-
-    padding-top: 20px;
-    padding-left: 10px;
-
-
-    height: 200px;
-    width: 40%;
-
-    bottom: 100px;
-    left: 100px;
-
-    background-color: rgba(94, 36, 36, 0.7);
-
-    position: absolute;
-    border: 1px solid bisque;
-    border-radius: 50%;
-}
-
+/*
 #info-text-fdest {
 
     font-size: 130%;
@@ -500,179 +454,20 @@ a {
     position: absolute;
     border: 1px solid bisque;
     border-radius: 50%;
-}
-
-
-#lackeen-summary {
-    height: 500px;
-    margin: 0 auto;
-}
-
-
-#lackeen-intro {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
-    text-transform: uppercase;
-    padding-top: 20px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.left-about-heading-sm {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-#right-about {
-
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-
-}
-
-hr {
-    border-top: 1px solid bisque;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-
-}
-
-
-.left-about-heading p {
-    padding-top: 5px;
-}
-
-.right-about-heading p {
-    text-align: right;
-
-}
-
-.right-about-heading-sm {
-    width: 70%;
-
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading-sm p {
-    text-align: right;
-}
-
-.right-about-heading-sm h2 {
-    text-align: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-hr {
-    border-top: 1px solid bisque;
-    width: 100%;
-    margin: 5px 0;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    margin: 0 auto;
-    background-color: bisque;
-    border: 1px solid rgba(94, 36, 36, 0.7);
-    border-radius: 50%;
-
-}
-
-#circle-cover-castle {
-    background: url('../images/lackeen-front.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-
-
-}
-
-/*location
-
-#location {
-    height: 400px;
-    margin: 30px auto;
-
-    width: 100%;
-}
-
-#visit-intro {
-    text-align: right;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    font-size: 200%;
-    text-transform: uppercase;
-}
-
-
-#map {
-    margin-left: 30px;
-    padding: 50px auto 30px auto;
-    width: 45%;
-
-    float: left;
-    border: 1px ridge rgba(94, 36, 36, 0.9);
-
-}
-
-#directions {
-    margin-left: 30px;
-    padding: 5px auto 10px auto;
-    width: 45%;
-    float: right;
-    font-size: 100%;
-    height: 300px;
-
 }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -685,7 +480,7 @@ footer {
     width: 100%;
 
     text-align: center;
-    height: 150px;
+    height: 120px;
 
 }
 
@@ -734,7 +529,7 @@ footer > h5{
 
 
 
-/*Castle defences
+/*Castle defences*/
 
 #defence-outer {
     height: 1200px;
@@ -753,20 +548,20 @@ footer > h5{
 
 }
 
-#info-text-window {
+#defence-window {
 
-    font-size: 100%;
+    font-size: 120%;
     font-family: eczar, serif;
 
     text-align: center;
 
-    padding: 5px;
+    padding: 10px;
 
 
-    height: 150px;
+    height: 180px;
     width: 37.5%;
 
-    top: 600px;
+    top: 550px;
     left: 60px;
 
     background-color: rgba(99, 22, 41, 0.7);
@@ -776,21 +571,21 @@ footer > h5{
     border-radius: 5%;
 }
 
-#info-text-mach {
+#defence-mach {
 
-    font-size: 100%;
+    font-size: 120%;
     font-family: eczar, serif;
-    text-transform: uppercase;
+   
 
     text-align: center;
 
-    padding: 5px;
+    padding: 10px;
 
 
     height: 180px;
     width: 37.5%;
 
-    top: 300px;
+    top: 250px;
     right: 30px;
 
     background-color: rgba(99, 22, 41, 0.7);
@@ -800,22 +595,22 @@ footer > h5{
     border-radius: 5%;
 }
 
-#info-text-door {
+#defence-door {
 
-    font-size: 100%;
+    font-size: 120%;
     font-family: eczar, serif;
-    text-transform: uppercase;
+    
 
     text-align: center;
 
-    padding: 5px;
+    padding: 10px;
 
 
     height: 180px;
     width: 45%;
 
-    bottom: 120px;
-    left: 80px;
+    bottom: 40px;
+    left: 100px;
 
     background-color: rgba(99, 22, 41, 0.7);
 
@@ -824,15 +619,15 @@ footer > h5{
     border-radius: 5%;
 }
 
-#info-text-intro {
+#defence-intro {
 
-    font-size: 100%;
+    font-size: 120%;
     font-family: eczar, serif;
-    text-transform: uppercase;
+  
 
     text-align: center;
 
-    padding: 5px;
+    padding: 10px;
 
 
     height: 250px;
@@ -848,29 +643,16 @@ footer > h5{
     border-radius: 5%;
 }
 
-
-
-#info-text-window h2,
-#info-text-mach h2,
-#info-text-door h2,
-#info-text-intro h2 {
-
-    text-transform: uppercase;
-    padding: 0 auto;
-    Letter-spacing: 4px;
-    padding-top: 15px;
-
+#defence-outer h3{
+    text-decoration: uppercase;
+    padding-top: 10px;
 }
 
-#info-text-window p,
-#info-text-mach p,
-#info-text-door p,
-#info-text-intro p {
 
-    text-transform: none;
-    padding-bottom: 5px;
 
-}
+
+   
+
 
 /*End castle defence*/
 /*
@@ -957,77 +739,12 @@ Stowe Missal*/
     margin-top: 20px;
 }
 
-/* Stowe Missal center pic*/
 
 
-.pic-container {
-    width: 200px;
-    height: 300px;
-    padding: 20px;
-    margin: 0 auto;
-    background-color: bisque;
-    border: 2px solid rgba(94, 36, 36, 0.7);
 
 
-}
-
-#pic-missal {
-    background: url('../images/sm-fpage.jpg') no-repeat center center;
-    height: 100%;
-}
 
 
-#sm-pics {
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    clear: both;
-    line-height: auto;
-    bottom: 50px;
-}
-
-#sm-pics h2 {
-    color: bisque;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 200%;
-    letter-spacing: 4px;
-
-    padding: 20px;
-}
-
-div.sm-gallery {
-    margin: 20px;
-    float: left;
-
-    width: 28.5%;
-}
-
-div.sm-gallery img {
-
-    width: 100%;
-    height: 400px;
-}
-
-div.desc {
-    padding: 20px auto;
-    text-align: center;
-    font-size: 100%;
-}
-
-#final-line {
-    margin-bottom: 100px;
-    font-size: 100%;
-
-}
-
-.center {
-    display: block;
-    margin: 0 auto;
-
-    width: 50%;
-}
 
 
 
@@ -1283,19 +1000,134 @@ text-align: center;
 }
 /*FORM*/
 
-.form-section {
-    clear: left;
-    background: url('../images/lackeencastle7.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+
+#form {
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fdf9ee;
+    margin: 0 auto;
+    background-color: rgba(27, 61, 47, 0.7);
+    position: relative;
 }
 
-.contact-form {
+#message {
+    max-width: 50%;
+    max-height: 200px;
+    background-color: #fdf9ee;
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+}
+
+/* changes the default placeholder text to match that of the site */
+
+::placeholder, #message{
+    color: #1B3D2F;
+    font-size: large;
+    font-family: 'lato', sans-serif;
+}
+
+#form-input {
+    max-width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: 15%;
+    padding: 10px;
+    font-size: larger;
+    display: inline-block;
+}
+
+#form-input > div {
+    padding: 15px;
+}
+
+.input {
+    height: 30px;
+    width: 250px;
+    background-color: #fdf9ee;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+}
+
+.callback-input {
+    background-color: #fdf9ee;
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+}
+
+#design-query-form > h2 {
+    color: #fdf9ee;
+}
+
+#submit {
+    background-color: #fdf9ee;
+    width: 125px;
+    color: #1B3D2F;
+    display: inline-block;
+    font-size: larger;
+    padding: 15px 32px 15px 32px;
+    position: absolute;
+    left: 45%;
+    bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+}
+
+/* enhances the UX by providing feedback when the cursor is over the submit button */
+
+#submit:hover {
+    border: 3px solid #fdf9ee;
+    background-color: #1B3D2F;
+    color: #fdf9ee;
+}
+
+#form-destination-text {
+    padding: 10% 20% 10% 20%;
+    font-weight: lighter;
+}
+
+#form-destination-footer {
+    position: fixed;
+    bottom: 0%;
+}
+/*#form-outer{ 
+    height:1600px;
+}
+.castle-background-form {
+    clear: left;
+    background: url("../images/lackeencastle7.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+}
+#booking-form h2{
+    padding:0;
+}
+#form-input{
+    max-width:40%;
+    height:auto;
+    text-align:left;
+    margin-left: 15%;
+    padding:10px;
+    font-size: larger;
+}
+#form-input >div{
+    padding:15px;
+}
+
+
+
+#booking-form{
     margin: 50px 20% 30px 0;
     color: bisque;
     background-color: rgba(94, 36, 36, 0.8);
-    max-width: 400px;
+    max-width: 600px;
     position: absolute;
     left: 5%;
     padding: 20px;
@@ -1353,16 +1185,28 @@ text-align: center;
     border-color: 2px solid darkred;
 }
 
-.join-button {
+#submit {
+    width:125px;
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
+    text-align:center;
+    font-size: larger;
     background-color: rgb(0, 0, 139, 0.7);
     color: bisque;
     display: block;
+    position: absolute;
+    left: 48%;
+    bottom:15px;
+    border-radius: 10px;
+
+}#submit:hover {
+    border: 3px solid bisque;
+    background-color: #00008B;
+    color: bisque;
 }
+
+
 
 #info-text-fdest {
     font-size: 130%;
