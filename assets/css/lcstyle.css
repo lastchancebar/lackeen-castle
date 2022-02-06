@@ -122,15 +122,15 @@ h3 {
 
 #booking-link a {
     text-decoration: inherit;
-    color: inherit;
-    font-style:italic;
+    color: coral;
+    font-style: italic;
     
     font-size: larger;
 }
 /* enhances the UX by providing feedback when the cursor is over the icon */
 
 #booking-link:hover {
-    border-bottom: 1px solid lightblue;
+    color: lightblue;
 }
 
     /* End Nav bar*/
@@ -689,7 +689,7 @@ footer > h5{
 
 
 #submit:hover {
-    border: 3px solid #fdf9ee;
+    border: 3px solid darkred;
     background-color: bisque;
     color: #00008b;
 }
@@ -764,6 +764,8 @@ footer > h5{
 }
 
 /*for screens from 1200px and down*/
+@media screen and (max-width:1200px){
+    
 
 h2{font-size:200%;
 }
@@ -779,10 +781,10 @@ h3 {
     background-color: transparent;
     border:none;
 }
-
+}
 
 /*for screens from 850px and down*/
-
+@media screen and(max-width:850px){
 
 #castle-title{
     background-color: transparent;
@@ -834,6 +836,87 @@ border-radius: 0;
 #defence-intro{
     height:300px;
 }
+}
+/*for screens 450px and lower*/
+@media screen  and(max-width: 450px){
+    
 
+h1{
+   font-size: 200%;
+}
 
+#menu {
+    float:left;
+    letter-spacing:2px;
+    font-size: 100%;
+    text-decoration:none;
+    text-transform: initial;
+}
+#menu > li {
+    float: right;
+    list-style-type: none;
+    margin-left: 10px;
+}
+#castle-title > h2{
 
+    font-size: 100%;
+    color:#00008B;
+    letter-spacing: 2px;
+    
+}
+#castle-title{
+    bottom:220px;
+    left:10px;
+    width:55%;
+    padding:20px;
+}
+#about-lackeen{
+    height:1300px;
+}
+
+#about-lackeen-image{
+    margin-left: 10px;
+padding-right:20px;
+}
+
+#contact-text {
+    
+    width:100%;
+    text-align:center;
+    position:relative;
+
+}
+
+#lackeen-map{
+    width:100%;
+ padding:2px;
+}
+
+#footer{
+    height:80px;
+}
+
+footer a{
+
+    padding: 5px 5px;
+}
+footer > li{
+
+    margin:10px;
+    padding:15px;
+    font-size: 120%;
+}
+#booking-form{
+    height:750px;
+    top:50px;
+    padding-right:15%;
+    margin-right:20px;
+}
+::placeholder, #message{
+    color: gray;  
+     font-size:medium;
+    
+}
+}#defence-outer  h3{
+font-size: 100%;
+}
