@@ -20,9 +20,14 @@ body> section{
 
 a{
     text-decoration: none;
-}
-/* Headings and logo*/
+        color: coral;
+    }
+
+
+
 p{ color: bisque;}
+
+/* Headings and logo*/
 
 h1{
     color: bisque;
@@ -66,9 +71,7 @@ h3 {
     padding: 30px;
     
 }
-a{ 
-    color: coral;
-}
+
 
 
 #title-text > h3 {
@@ -80,7 +83,7 @@ a{
     padding: 0px;
 }
 
-/* navigation*/
+/* navigation bar*/
 
 
 #menu {
@@ -133,7 +136,7 @@ a{
     /* End Nav bar*/
 
 
-/* Main image and text*/
+/* home page image texts */
 
 #castle-outer {
     height: 600px;
@@ -173,7 +176,7 @@ a{
     border: 2px solid bisque;
     border-radius:5%;}
 
-    /* about lackeen*/
+    
     #about-lackeen {
         height:600px;
     }
@@ -213,6 +216,7 @@ a{
     padding-bottom: 15px;
 }
 /*location*/
+
 #location {
     text-align: center;
     width: 100%;
@@ -430,31 +434,7 @@ padding-bottom: 15px;
 
 
 
-/*
-#info-text-fdest {
 
-    font-size: 130%;
-    font-family: eczar, serif;
-    text-transform: uppercase;
-
-    text-align: center;
-
-    padding-top: 20px;
-    padding-left: 10px;
-
-
-    height: 200px;
-    width: 40%;
-
-    bottom: 100px;
-    left: 100px;
-
-    background-color: rgba(94, 36, 36, 0.7);
-
-    position: absolute;
-    border: 1px solid bisque;
-    border-radius: 50%;
-}*/
 
 
 
@@ -480,7 +460,7 @@ footer {
     width: 100%;
 
     text-align: center;
-    height: 120px;
+    height: 100px;
 
 }
 
@@ -512,11 +492,7 @@ footer a {
     padding: 30px;
     color: bisque;}
 
-    /*enhanced UX with feedback over the icons*/
 
-.social-networks i:hover {
-        transform: scale(1.3,1.3);
-    }
 
 footer > h5{
     text-align:right;
@@ -643,55 +619,12 @@ footer > h5{
     border-radius: 5%;
 }
 
-#defence-outer h3{
-    text-decoration: uppercase;
-    padding-top: 10px;
-}
 
-
-
-
-   
+ 
 
 
 /*End castle defence*/
-/*
-Stowe Missal*/
 
-#projects h3 {
-    padding: 30px;
-    background-color: rgba(27, 61, 47, 0.7);
-    color: #fdf9ee;
-    text-transform: uppercase;
-}
-
-#project-one-container, #project-three-container {
-    display: block;
-    width: 100%;
-    height: auto;   
-    position: relative;
-    box-sizing: border-box;
-    margin-bottom: 83px;
-}
-
-#project-two-container {
-    display: block;
-    width: 100%;
-    min-height: 500px;
-    height: auto;   
-    position: relative;
-    box-sizing: border-box;
-    margin-bottom: 83px;
-}
-
-#projects p {
-    font-size: larger;
-}
-
-#projects i, #inspiration i {
-    font-size: 70%;
-    padding: 0px 15px 0px 15px;
-}
 
 .float-left {
     float: left;
@@ -701,343 +634,38 @@ Stowe Missal*/
     float: right;
 }
 
-#cots-p, #walker-p {
-    padding-left: 55%;
-    padding-right: 5%;
-    position: absolute;
-    top: 17%;
-    right: 30px;
-}
 
-#cots-list {
-    padding-left: 60%;
-    padding-right: 5%;
-    margin-top: 5px;
-}
-
-#height-p {
-    padding-left: 5%;
-    padding-right: 45%;
-    position:absolute;
-    top: 17%;
-}
-/*.stowe-missal-background {
-    clear: left;
-    background: url("../images/sm-cover-both.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 100%;
-}
-
-
-#sm-summary {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    margin-top: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media queries*/
-
-/*  screens max-width 1024px and down*/
-@media screen and (max-width:1024px) {
-h1{padding:20px;}
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #info-text {
-
-        font-size: 130%;
-        font-family: eczar, serif;
-        text-transform: uppercase;
-
-        text-align: center;
-
-        padding: 20px auto;
-
-
-        height: 250px;
-        width: 45%;
-
-        bottom: 100px;
-        left: 50px;
-
-        background-color: rgba(94, 36, 36, 0.7);
-
-        position: absolute;
-        border: 1px solid bisque;
-        border-radius: 50%;
-    }
-
-    #info-text>h2 {
-
-        padding-top: 20px;
-    }
-
-
-
-    .left-about-heading,
-    .right-about-heading {
-
-        width: 80%;
-    }
-
-}*/
-
-/* Media query  850px and lower
-
-@media screen and (max-width:850px) {
-
-    h1{
-        padding:10px;
-    }
-    #info-text {
-
-        font-size: 100%;
-        font-family: eczar, serif;
-        font-weight: 100;
-        text-transform: uppercase;
-
-        text-align: center;
-
-        padding: 0;
-
-
-        height: 400px;
-        width: 50%;
-
-        bottom: 530px;
-        left: 20px;
-
-        background-color: rgba(94, 36, 36, 0.7);
-
-        position: absolute;
-        border: 2px solid bisque;
-        border-radius: 50%;
-    }
-
-    #info-text>h2 {
-
-        padding-top: 20px;
-    }
-
-    #summary-outer,
-    #castle-background {
-        height: 400px;
-    }
-
-    #lackeen-summary {
-        padding:0;
-    }
-
-    #lackeen-intro {
-        padding: 30px 20px;
-        margin: 0;
-        font-size:180%;
-        letter-spacing: 1px;
-
-    }
-    #left-about{
-        clear:right;
-        width:80%;
-        left:30px;
-        margin:0 0 0 0px;
-        padding:0 0 0 30px;
-    }
-
-
-   
-    .left-about-heading h2{
-text-align: center;
-    }
-    .left-about-heading p{
-        text-align: center;
-      
-    }
-    #right-about{
-        height:250px;
-        clear:right;
-        width:80%;
-    
-        margin:0 0 0 50px;
-        padding: 20px 20px 30px 20px;
-    }
-
-    .right-about-heading p {
-        text-align:center;
-        
-
-    }
-    .right-about-heading h2{
-        text-align: center;
-    }
-
-
-    #lackeen-summary {
-        height: 1150px;
-    }
-
-    hr {
-        display: none;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        height: 150px;
-        padding: 0;
-
-    }
-
-    #visit-intro {
-        text-align: center;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        font-size: 200%;
-
-    }
-    hr {
-        border-top: 1px solid bisque;
-        width: 100%;
-        margin: 5px 0;
-    }
-
-    #location {
-        height: 600px;
-    }
-
-    #map,
-    #directions {
-        width: 100%;
-        margin-left: 5px;
-        padding: 0 auto;
-    }
-    #directions {
-        text-align: center;
-        font-size: 100%;
-    }
-
-}
-#info-text-window {
-
-    height:220px;
-}
-#info-text-mach {
-
-    height:250px;
-}
-#info-text-intro {
-
-    height:320px;
-}
-#info-text-door {
-
-
-    height:220px;
-
-}
-#info-text-sm{
-    background-color:transparent;
-    border:none;
-    
-
-}
-.left-about-heading-sm {
-    width:80%;
-    clear: right;
-
-}.right-about-heading-sm h2{
-    text-align:left;
-    margin-bottom: 5px;
-    width:80%;
-    
-}
-.right-about-heading-sm p {
-    text-align: left;
-    margin-top: 5px;
-}
-
-
-
-.right-about-heading-sm {
-    width:80%;
-    
-}
-#sm-summary{
-    height:650px;
-    
-}#sm-pics{
-    height:1500px;
-}
-
-
-.sm-gallery >img {
-
-    width:100%;
-    height:450px;
-    margin:20px auto;
-}
 /*FORM*/
 
 
-#form {
-    height: 500px;
-    width: 100%;
-    box-sizing: border-box;
-    color: #fdf9ee;
-    margin: 0 auto;
-    background-color: rgba(27, 61, 47, 0.7);
-    position: relative;
-}
 
 #message {
-    max-width: 50%;
+    max-width: 40%;
     max-height: 200px;
     background-color: #fdf9ee;
-    display: inline-block;
+   
     position: absolute;
-    right: 8%;
+
     border-radius: 10px;
-    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+    
 }
 
-/* changes the default placeholder text to match that of the site */
+
 
 ::placeholder, #message{
-    color: #1B3D2F;
-    font-size: large;
-    font-family: 'lato', sans-serif;
+    color: #000;  
+     font-size: large;
+    font-family: 'eczar', serif;
 }
 
 #form-input {
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
     text-align: left;
     margin-left: 15%;
     padding: 10px;
     font-size: larger;
-    display: inline-block;
+   
 }
 
 #form-input > div {
@@ -1064,21 +692,44 @@ text-align: center;
     color: #fdf9ee;
 }
 
-#submit {
-    background-color: #fdf9ee;
-    width: 125px;
-    color: #1B3D2F;
-    display: inline-block;
-    font-size: larger;
-    padding: 15px 32px 15px 32px;
-    position: absolute;
-    left: 45%;
-    bottom: 15px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
+
+#form-section {
+    clear: left;
+    background: url("../images/lackeencastle7.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
 }
 
-/* enhances the UX by providing feedback when the cursor is over the submit button */
+
+
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+#submit {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
 
 #submit:hover {
     border: 3px solid #fdf9ee;
@@ -1086,57 +737,25 @@ text-align: center;
     color: #fdf9ee;
 }
 
-#form-destination-text {
-    padding: 10% 20% 10% 20%;
-    font-weight: lighter;
-}
 
-#form-destination-footer {
-    position: fixed;
-    bottom: 0%;
-}
-/*#form-outer{ 
-    height:1600px;
-}
-.castle-background-form {
-    clear: left;
-    background: url("../images/lackeencastle7.jpg") ;
-    background-size: cover;
-    background-position: center;
-    height: 1000px;
-    width: 100%;
-}
+
+
 #booking-form h2{
     padding:0;
 }
-#form-input{
-    max-width:40%;
-    height:auto;
-    text-align:left;
-    margin-left: 15%;
-    padding:10px;
-    font-size: larger;
-}
-#form-input >div{
-    padding:15px;
-}
-
-
 
 #booking-form{
     margin: 50px 20% 30px 0;
     color: bisque;
     background-color: rgba(94, 36, 36, 0.8);
-    max-width: 600px;
+    max-width: 500px;
+    
     position: absolute;
-    left: 5%;
+  left:5%;
     padding: 20px;
 }
 
-.contact-form>h2 {
-    color: bisque;
-    margin-bottom: 5px;
-}
+
 
 .text-input {
     background: bisque;
@@ -1173,7 +792,7 @@ text-align: center;
 #message {
     background: bisque;
     color: #000;
-    width: 100%;
+    width: 80%;
     height: 100px;
     margin: 5px 0 20px 0;
     border: 2px solid bisque;
@@ -1185,53 +804,10 @@ text-align: center;
     border-color: 2px solid darkred;
 }
 
-#submit {
-    width:125px;
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align:center;
-    font-size: larger;
-    background-color: rgb(0, 0, 139, 0.7);
-    color: bisque;
-    display: block;
-    position: absolute;
-    left: 48%;
-    bottom:15px;
-    border-radius: 10px;
-
-}#submit:hover {
-    border: 3px solid bisque;
-    background-color: #00008B;
-    color: bisque;
-}
 
 
 
-#info-text-fdest {
-    font-size: 130%;
-    font-family: eczar, serif;
 
-
-    text-align: center;
-
-    padding-top: 80px;
-    padding-left: 10px;
-
-
-    height: 180px;
-    width: 50%;
-
-    bottom: 100px;
-    left: 100px;
-
-    background-color: rgba(94, 36, 36, 0.7);
-
-    position: absolute;
-    border: 1px solid bisque;
-    border-radius: 50%;
-
-}*/
 
 /*  ++++++++FOR SCREENS 426 and down+++++++++
 
