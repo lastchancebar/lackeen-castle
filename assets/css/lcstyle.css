@@ -900,12 +900,23 @@ footer a{
 
     padding: 5px 5px;
 }
-footer > li{
+.social-networks > li{
 
     margin:10px;
-    padding:15px;
-    font-size: 120%;
+    padding:10px;
+    font-size: 100%;
 }
+
+.social-networks  {
+    height:50px;
+}
+.social-networks i{
+    font-size:120%;
+    margin:5px;
+    padding:5px;
+}
+}
+
 #booking-form{
     height:750px;
     top:50px;
@@ -917,6 +928,21 @@ footer > li{
      font-size:medium;
     
 }
-}#defence-outer  h3{
-font-size: 100%;
+#defence-outer  h3{
+font-size: 80%;
+text-transform: uppercase;
+letter-spacing:1px;
+}
+
+#defence-outer p{
+    font-size:70%;
+}
+
+#defence-intro{
+    height:fit-content;
+
+}
+#defence-mach{
+    height:fit-content;
+    right:20px;
 }
