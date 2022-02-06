@@ -88,7 +88,7 @@ h3 {
 
 #menu {
     float:right;
-    letter-spacing:4px;
+    letter-spacing:2px;
     font-size:150%;
     text-decoration:none;
 }
@@ -311,11 +311,12 @@ iframe {
 
  /* about stowe missal*/
  #about-sm {
-    height:1200px;
+    height:600px;
 }
 #about-sm > h2 {
     padding-bottom: 15px;
     }
+    
 
 #about-sm-text {
 float: left;
@@ -338,18 +339,18 @@ width: 35%;
 max-height: 600px;
 margin: 20px 50px 0px 0px;
 overflow: hidden;
-border-radius: 40px;
+
 }
 
 #about-sm-image > img {
 height: auto;
-width: 90%;
+width: 60%;
 }
 
 
 .desc{
     color:bisque;
-    text-align:center;
+    text-align:left;
 }
 
 #about-sm-cover-text {
@@ -366,26 +367,34 @@ width: 90%;
         padding-right: 50px;
         max-width: 95%;
         }
-        #about-sm-cover-text > p {
-            padding-right: 20px;
-            max-width: 95%;
-            }
+       
     #about-sm-cover-image {
     float: left;
-    width: 40%;
+    width: 45%;
     max-height: 600px;
-    margin: 20px 0px 0px 50px;
+    margin: 50px 0px 0px 50px;
     overflow: hidden;
-    border-radius: 40px;
+    
     }
     
     #about-sm-cover-image > img {
-    height: 400px;
-    width: 90%;
+    height: auto;
+    width: 50%;
     }
     
     
-    
+    #final-line{
+        width 90%;
+        max-height:200px;
+        margin: 50 auto 20 50;
+    }
+
+        #final-line >img{
+
+            height:auto;
+            width:80%;
+        }
+    }
    
     
 
@@ -414,7 +423,6 @@ width: 90%;
 
 
 /*
-
 
 
 */
@@ -450,13 +458,14 @@ width: 90%;
 /* footer*/
 
 footer {
-    
+  
     left: 0;
     bottom: 0;
     width: 100%;
+background-color:#00008b;
 
     text-align: center;
-    height: 100px;
+    height: 120px;
 
 }
 
@@ -633,13 +642,28 @@ footer > h5{
 
 /*FORM*/
 
+#form-outer {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 
+}
+
+
+.form-castle-background {
+    clear: left;
+    background: url("../images/lackeencastle7.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
 
 #message {
-    max-width: 40%;
+    max-width: 80%;
     max-height: 200px;
-    background-color: #fdf9ee;
-   
+    background-color: bisque;
     position: absolute;
 
     border-radius: 10px;
@@ -658,48 +682,15 @@ footer > h5{
     max-width: 80%;
     height: auto;
     text-align: left;
-    margin-left: 15%;
+    margin-left:5%;
     padding: 10px;
     font-size: larger;
    
 }
 
 #form-input > div {
-    padding: 15px;
+    padding: 1px;
 }
-
-.input {
-    height: 30px;
-    width: 250px;
-    background-color: #fdf9ee;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
-}
-
-.callback-input {
-    background-color: #fdf9ee;
-    height: 20px;
-    width: 20px;
-    margin-left: 30px;
-    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 60%);
-}
-
-#design-query-form > h2 {
-    color: #fdf9ee;
-}
-
-
-#form-section {
-    clear: left;
-    background: url("../images/lackeencastle7.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 1200px;
-}
-
-
-
-
 
 .text-input {
     background: transparent;
@@ -712,18 +703,21 @@ footer > h5{
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: coral;
 }
 
 #submit {
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-left:40%;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
+    
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #00008b;
     color: #fafafa;
     display: block;
+    border:2px solid bisque;
 }
 
 
@@ -745,9 +739,11 @@ footer > h5{
     color: bisque;
     background-color: rgba(94, 36, 36, 0.8);
     max-width: 500px;
-    
+    height:00px;
     position: absolute;
   left:5%;
+  top:80px;
+
     padding: 20px;
 }
 
@@ -1080,13 +1076,7 @@ footer > h5{
         margin: 10px 30px;
     }
 
-    #final-line>img {
-
-        padding-bottom: 30px;
-        max-height: 100px;
-        max-width: 100%;
-        background: url=("../images/sm-signoff-big.jpg")
-    }
+    
 
     .contact-form {
         margin-top: 20px;
