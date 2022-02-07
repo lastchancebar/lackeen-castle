@@ -9,7 +9,7 @@ LACKEEN CASTLE
 
 
 
-------<img url="./readme-img/intro-amirespponsive.jpg" alt="Lackeen Castle homepage on 4 different media">
+------<img url="./readme-img/amirespponsive.jpg" alt="Lackeen Castle homepage on 4 different media">
 
 <h1><Contents</h1>
 
@@ -154,17 +154,21 @@ Content
 <li>The fonts came from Google</li>
 <li>The map is embedded from Google Maps</li>
 <li>The icons came from Font Awesome</li>
-<li>The form destination page came from a repository on Github via a suggestion from my mentor</li>
+<li>The form destination page came from a Prjoect 1 repository by Ewan Colquhon repository on Github via a suggestion from my mentor</li>
+I found w3c very helpful with little tech issues I should have understood  then.
+I looked at Bunratty Cstle and Book of KElls sites for ideas on how to presneet my pages.
+I did a school project on the Stowe Missal  many years ago, so I would like to thank my younger self for giving me the inspiration . 
 </ul>
 Media
 
-The Lackeen Castle images came from  Jim Dempsey, author of <a src="http://www.megalithicireland.com/"> Megalithic Ireland. I sought his permission by email to use these pictures and intend to acknowledge him .
+The Lackeen Castle images came from  Jim Dempsey, author of <a src="http://www.megalithicireland.com/"> Megalithic Ireland. I sought his permission by email to use these pictures and intend to acknowledge him if this website eveer goes live.
 
 The Stowe Missal pictures came from the <a src="https://www.ria.ie/"> Royal Irish Academy</a> website. Copies are available to students at a small fee.
 
 
 Acknowledgements
 
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, and all at the Code Institute for their help and support especially Kasia, my course administrator. I hope website this sparks a tourism boom to North Tipperary!
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, and all at the Code Institute for their help and support especially Kasia, my course administrator. 
+Finally, I would like to acknowledge the class of strong and supportive women I am lucky to be part of and Mayo Sligo Leitrim ETB for giving us the opportunity to acquire the valuable skills with which I know we will go forth and conquer the world  (of computing!!)
 
-Ewan Colquhoun 2021.
+Darina Kelly 2022.
