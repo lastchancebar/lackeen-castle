@@ -13,28 +13,30 @@ body {
     background-size: cover;
 }
 
-body> section{ 
-    max-width:2000px;
-    margin:auto;
+body>section {
+    max-width: 2000px;
+    margin: auto;
 }
 
-a{
+a {
     text-decoration: none;
-        color: coral;
-    }
+    color: coral;
+}
 
 
 
-p{ color: bisque;}
+p {
+    color: bisque;
+}
 
 /* Headings and logo*/
 
-h1{
+h1 {
     color: bisque;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-family: 'Eczar', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:300%;
+    font-size: 300%;
     text-decoration: none;
 
 }
@@ -43,20 +45,21 @@ h1{
 #logo {
     float: left;
     color: bisque;
-    font-weight:bold;
+    font-weight: bold;
     margin-left: 20px;
 }
 
 h2 {
     font-family: 'PT Serif', serif;
-    color:bisque;
-    text-align:center;
+    color: bisque;
+    text-align: center;
 
 }
+
 h3 {
     font-family: 'PT Serif', serif;
-    color:bisque;
-    text-align:center;
+    color: bisque;
+    text-align: center;
 }
 
 
@@ -69,16 +72,16 @@ h2 {
 h3 {
     font-size: 200%;
     padding: 30px;
-    
+
 }
 
 
 
-#title-text > h3 {
+#title-text>h3 {
     font-size: 60%;
 }
 
-#title-text > h2 {
+#title-text>h2 {
     font-size: larger;
     padding: 0px;
 }
@@ -87,12 +90,13 @@ h3 {
 
 
 #menu {
-    float:right;
-    letter-spacing:2px;
-    font-size:150%;
-    text-decoration:none;
+    float: right;
+    letter-spacing: 2px;
+    font-size: 150%;
+    text-decoration: none;
 }
-#menu > li {
+
+#menu>li {
     float: left;
     list-style-type: none;
     margin-right: 20px;
@@ -100,17 +104,19 @@ h3 {
 
 
 .navlink {
-    color:bisque;
-    font-family: 'eczar',serif;
+    color: bisque;
+    font-family: 'eczar', serif;
 
 }
+
 /* enhances the UX by providing feedback when the cursor is over the icon */
 
 .navlink:hover {
 
     border-bottom: 2px solid bisque;
 }
-#active{
+
+#active {
     border-bottom: 2px solid bisque;
 }
 
@@ -124,16 +130,17 @@ h3 {
     text-decoration: inherit;
     color: coral;
     font-style: italic;
-    
+
     font-size: larger;
 }
+
 /* enhances the UX by providing feedback when the cursor is over the icon */
 
 #booking-link:hover {
     color: lightblue;
 }
 
-    /* End Nav bar*/
+/* End Nav bar*/
 
 
 /* home page image texts */
@@ -156,30 +163,31 @@ h3 {
     width: 100%;
 }
 
-#castle-title{
+#castle-title {
 
     font-size: 120%;
     text-transform: uppercase;
     text-align: center;
 
-    padding:1px;
+    padding: 1px;
 
 
-    height: 350px;
+    height: fit-content;
     width: 48%;
 
     bottom: 120px;
-    left:30px;
+    left: 30px;
     position: absolute;
 
     background-color: rgba(94, 36, 36, 0.4);
     border: 2px solid bisque;
-    border-radius:5%;}
+    border-radius: 5%;
+}
 
-    
-    #about-lackeen {
-        height:600px;
-    }
+
+#about-lackeen {
+    height: 600px;
+}
 
 
 #about-lackeen-text {
@@ -189,9 +197,9 @@ h3 {
     font-size: 120%;
     max-width: 45%;
     padding-left: 30px;
-    color:bisque;
+    color: bisque;
 }
-    
+
 
 #about-lackeen-image {
     float: right;
@@ -202,19 +210,20 @@ h3 {
     border-radius: 40px;
 }
 
-#about-lackeen-image > img {
+#about-lackeen-image>img {
     height: auto;
     width: 100%;
 }
 
-#about-lackeen-text > p {
+#about-lackeen-text>p {
     padding-left: 20px;
     max-width: 95%;
 }
 
-#about-lackeen > h2 {
+#about-lackeen>h2 {
     padding-bottom: 15px;
 }
+
 /*location*/
 
 #location {
@@ -225,28 +234,28 @@ h3 {
     position: relative;
 }
 
-#contact-text{
-color:bisque;
-    Width:50%;
-    height:450px;
-    float:left;
-    position:absolute;
+#contact-text {
+    color: bisque;
+    Width: 50%;
+    height: 450px;
+    float: left;
+    position: absolute;
     box-sizing: border-box;
 }
 
 #contact-text ul {
     padding-top: 5%;
-    font-size:large;
-    margin:auto;
+    font-size: large;
+    margin: auto;
     list-style-type: none;
-    
+
 }
 
 #contact-text li {
     padding: 20px;
     list-style-type: none;
 }
-    
+
 
 #lackeen-map {
     padding-right: 5%;
@@ -255,169 +264,29 @@ color:bisque;
     height: 330px;
 }
 
-#contact-text{
-    width:50%;
-    height:450px;
-    float:right;
-    position:absolute;
+#contact-text {
+    width: 50%;
+    height: 450px;
+    float: right;
+    position: absolute;
     box-sizing: border-box;
 
 }
+
 iframe {
     width: 100%;
     height: 100%;
 }
 
 
-/* ***********stowe missal***/
-
-#sm-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-
-}
-
-
-.sm-background {
-    clear: left;
-    background: url("../images/sm-cover-both.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 100%;
-}
-
-#sm-title{
-
-    font-size: 120%;
-    text-transform: uppercase;
-    text-align: center;
-
-    padding:1px;
-
-
-    height: 350px;
-    width: 48%;
-
-    bottom: 120px;
-    left:30px;
-    position: absolute;
-
-    background-color: rgba(94, 36, 36, 0.4);
-    border: 2px solid bisque;
-    border-radius:5%;}
-
- /* about stowe missal*/
- #about-sm {
-    min-height: 1200px;
-    display:block;
-    width:100%;
-    position:relative;
-    
-    margin-bottom: 80px;
-
-}
-
-
-#about-sm > h2 {
-    padding-bottom: 15px;
-    }
-    
-
-#sm-text {
-float: left;
-padding-top: 50px;
-width: 60%;
-box-sizing: border-box;
-max-width: 50%;
-padding-left: 30px;
-color:bisque;
-}
-#sm-text > p {
-    padding-left: 20px;
-    max-width: 95%;
-    }
-    
-
-#sm-image {
-float: right;
-width: 45%;
-max-height: 600px;
-margin: 50px 30px 0px 0px;
-overflow: hidden;
-box-sizing: content-box;
-
-}
-
-#sm-image > img {
-height: auto;
-width: 60%;
-}
-
-
-.desc{
-    color:bisque;
-    text-align:left;
-}
-
-#cover-text {
-    text-align: left;
-    float: left;
-    padding-top: 10px;
-    width: 50%;
-    font-size: 100%;
-    max-width: 50%;
-    padding-left: 30px;
-    color:bisque;
-    box-sizing:content-box;
-    }
-    #cover-text > p {
-        padding-right: 50px;
-        max-width: 75%;
-        margin-bottom: 80px;
-        }
-       
-    #cover-image {
-    float: left;
-    width: 45%;
-    max-height: 600px;
-    margin: 50px 0px 0px 50px;
-    overflow: hidden;
-    box-sizing: border-box;
-    }
-    
-    #cover-image > img {
-    height: auto;
-    width: 45%;
-    }
-    
-    
-    #final-line{
-        width: 90%;
-        max-height:200px;
-        margin: 50px auto;
-       
-    }
-
-        #final-line >img{
-
-            height:auto;
-            width:50%;
-        }
-    
-   
-    
-
-/* footer*/
+/************************************ footer*/
 
 footer {
-  
+
     left: 0;
     bottom: 0;
     width: 100%;
-background-color:#00008b;
+    background-color: #00008b;
 
     text-align: center;
     height: 120px;
@@ -431,14 +300,14 @@ footer a {
 
 
 .social-networks {
-    padding-top:15px;
-    height:75px;
+    padding-top: 15px;
+    height: 75px;
 
     text-align: center;
 
 }
 
-.social-networks > li {
+.social-networks>li {
 
     display: inline;
 }
@@ -448,20 +317,19 @@ footer a {
     font-size: 140%;
     margin: 25px;
     padding: 30px;
-    color: bisque;}
-
-
-
-footer > h5{
-    text-align:right;
-    display: inline;
-    padding: 5px;
-    margin-top:120%;
-    font-style: italic;
-    color:bisque;
+    color: bisque;
 }
 
 
+
+footer>h5 {
+    text-align: right;
+    display: inline;
+    padding: 5px;
+    margin-top: 120%;
+    font-style: italic;
+    color: bisque;
+}
 
 /*Castle defences*/
 
@@ -509,7 +377,7 @@ footer > h5{
 
     font-size: 120%;
     font-family: eczar, serif;
-   
+
 
     text-align: center;
 
@@ -533,7 +401,7 @@ footer > h5{
 
     font-size: 120%;
     font-family: eczar, serif;
-    
+
 
     text-align: center;
 
@@ -557,7 +425,7 @@ footer > h5{
 
     font-size: 120%;
     font-family: eczar, serif;
-  
+
 
     text-align: center;
 
@@ -592,10 +460,132 @@ footer > h5{
     transform: scale(1.1);
 }
 
- 
+
 
 
 /*End castle defence*/
+
+
+/* ***********stowe missal***/
+
+#sm-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.sm-background {
+    clear: left;
+    background: url("../images/smcoverblue.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#sm-title {
+
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding: 1px;
+
+
+    height: fit-content;
+    width: 48%;
+
+    bottom: 120px;
+    left: 30px;
+    position: absolute;
+
+    background-color: rgba(94, 36, 36, 0.4);
+    border: 2px solid bisque;
+    border-radius: 5%;
+}
+
+/* about stowe missal*/
+#about-sm {
+    min-height: 1250px;
+
+    width: 80%;
+
+    margin-bottom: 80px;
+
+}
+
+
+#about-sm>h2 {
+    padding-bottom: 15px;
+}
+
+#about-sm p {
+    font-size: 120%;
+}
+
+#sm-text,
+#cover-text {
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+
+    padding: 30px auto;
+
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#sm-image>img {
+    height: auto;
+    width: 70%;
+}
+
+
+.desc {
+    color: bisque;
+    text-align: center;
+}
+
+
+
+
+
+
+#cover-image>img {
+    height: auto;
+    width: 100%;
+}
+
+
+#final-line {
+    width: 100%;
+    max-height: 400px;
+    text-align: center;
+
+
+}
+
+#final-line >img {
+
+    height: auto;
+    width: 80%;
+}
+
+
+
+
+
+
 
 
 .float-left {
@@ -607,7 +597,7 @@ footer > h5{
 }
 
 
-/*FORM*/
+/*********BOOKING FORM*/
 
 #form-outer {
     height: 900px;
@@ -634,14 +624,15 @@ footer > h5{
     position: absolute;
 
     border-radius: 10px;
-    
+
 }
 
 
 
-::placeholder, #message{
-    color: #000;  
-     font-size: large;
+::placeholder,
+#message {
+    color: #000;
+    font-size: large;
     font-family: 'eczar', serif;
 }
 
@@ -649,13 +640,13 @@ footer > h5{
     max-width: 80%;
     height: auto;
     text-align: left;
-    margin-left:5%;
+    margin-left: 5%;
     padding: 10px;
     font-size: larger;
-   
+
 }
 
-#form-input > div {
+#form-input>div {
     padding: 1px;
 }
 
@@ -675,16 +666,16 @@ footer > h5{
 
 #submit {
     margin-top: 60px;
-    margin-left:40%;
+    margin-left: 40%;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
-    
+
     text-align: center;
     font-size: 100%;
     background-color: #00008b;
     color: #fafafa;
     display: block;
-    border:2px solid bisque;
+    border: 2px solid bisque;
 }
 
 
@@ -697,19 +688,19 @@ footer > h5{
 
 
 
-#booking-form h2{
-    padding:0;
+#booking-form h2 {
+    padding: 0;
 }
 
-#booking-form{
+#booking-form {
     margin: 50px 20% 30px 0;
     color: bisque;
     background-color: rgba(94, 36, 36, 0.8);
     max-width: 500px;
-    height:700px;
+    height: 700px;
     position: absolute;
-  left:5%;
-  top:80px;
+    left: 5%;
+    top: 80px;
 
     padding: 20px;
 }
@@ -760,189 +751,205 @@ footer > h5{
 }
 
 .text-input:hover {
-    border-color: 2px solid darkred;
+    border-color: solid darkred;
 }
 
 /*for screens from 1200px and down*/
-@media screen and (max-width:1200px){
-    
+@media screen and (max-width:1200px) {
 
-h2{font-size:200%;
-}
 
-h3 {
-    font-size:150%;
-}
-#defence-outer h3{
-    padding-top: 5px;
-}
-    
-#sm-title{
-    background-color: transparent;
-    border:none;
-}
+    h2 {
+        font-size: 200%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    #defence-outer h3 {
+        padding-top: 5px;
+    }
+
+    #sm-title {
+        background-color: transparent;
+        border: none;
+    }
 }
 
 /*for screens from 850px and down*/
-@media screen and(max-width:850px){
+@media screen and (max-width:850px) {
 
-#castle-title{
-    background-color: transparent;
-    border:none;
+    #castle-title {
+        height: fit-content;
 
-}
-#about-lackeen{
-    height:1000px;
-}
-#about-lackeen-text {
-    clear: left;
+    }
+
+    #about-lackeen {
+        height: 1000px;
+    }
+
+    #about-lackeen-text {
+        clear: left;
         width: 80%;
-    font-size: 120%;
-    max-width: 90%;
- padding-left:50px;
-    
+        font-size: 120%;
+        max-width: 90%;
+        padding-left: 50px;
+
+    }
+
+
+
+
+    #about-lackeen-image {
+        clear: right;
+        width: 80%;
+        max-width: 90%;
+        margin: 20px 20px 20px 30px;
+        padding-right: 80px;
+        border-radius: 0;
+
+    }
+
+    #defence-window {
+        width: 40%;
+
+    }
+
+    #defence-mach {
+        width: 40%;
+        height: 200px;
+        top: 280px;
+
+    }
+
+    #defence-door {
+        bottom: 60px;
+        height: 200px;
+
+    }
+
+    #defence-intro {
+        height: 300px;
+    }
 }
 
-
-
-
-#about-lackeen-image {
-clear: right;
-width : 80%;
-max-width:90%;
-margin: 20px 20px 20px 30px;
-padding-right:80px;
-border-radius: 0;
-
-}
-
-#defence-window {
-    width:40%;
-
-}
-
-#defence-mach{
-    width:40%;
-    height:200px;
-    top:280px;
-
-}
-
-#defence-door{
-    bottom:60px;
-    height:200px;
-
-}
-#defence-intro{
-    height:300px;
-}
-}
 /*for screens 450px and lower*/
-@media screen  and(max-width: 450px){
-    
+@media screen and (max-width: 450px) {
 
-h1{
-   font-size: 200%;
-}
 
-#menu {
-    float:left;
-    letter-spacing:2px;
-    font-size: 100%;
-    text-decoration:none;
-    text-transform: initial;
-}
-#menu > li {
-    float: right;
-    list-style-type: none;
-    margin-left: 10px;
-}
-#castle-title > h2{
+    h1 {
+        font-size: 200%;
+    }
 
-    font-size: 100%;
-    color:#00008B;
-    letter-spacing: 2px;
-    
-}
-#castle-title{
-    bottom:220px;
-    left:10px;
-    width:55%;
-    padding:20px;
-}
-#about-lackeen{
-    height:1300px;
-}
+    #menu {
+        float: left;
+        letter-spacing: 2px;
+        font-size: 100%;
+        text-decoration: none;
+        text-transform: initial;
+    }
 
-#about-lackeen-image{
-    margin-left: 10px;
-padding-right:20px;
-}
+    #menu>li {
+        float: right;
+        list-style-type: none;
+        margin-left: 10px;
+    }
 
-#contact-text {
-    
-    width:100%;
-    text-align:center;
-    position:relative;
+    #castle-title>h2 {
 
-}
+        font-size: 100%;
+        color: #00008B;
+        letter-spacing: 2px;
 
-#lackeen-map{
-    width:100%;
- padding:2px;
-}
+    }
 
-#footer{
-    height:80px;
-}
+    #castle-title {
+        bottom: 220px;
+        left: 10px;
+        width: 55%;
+        padding: 20px;
+    }
 
-footer a{
+    #about-lackeen {
+        height: 1300px;
+    }
 
-    padding: 5px 5px;
-}
-.social-networks > li{
+    #about-lackeen-image {
+        margin-left: 10px;
+        padding-right: 20px;
+    }
 
-    margin:10px;
-    padding:10px;
-    font-size: 100%;
-}
+    #contact-text {
 
-.social-networks  {
-    height:50px;
-}
-.social-networks i{
-    font-size:120%;
-    margin:5px;
-    padding:5px;
-}
-}
+        width: 100%;
+        text-align: center;
+        position: relative;
 
-#booking-form{
-    height:750px;
-    top:50px;
-    padding-right:15%;
-    margin-right:20px;
-}
-::placeholder, #message{
-    color: gray;  
-     font-size:medium;
-    
-}
-#defence-outer  h3{
-font-size: 80%;
-text-transform: uppercase;
-letter-spacing:1px;
-}
+    }
 
-#defence-outer p{
-    font-size:70%;
-}
+    #lackeen-map {
+        width: 100%;
+        padding: 2px;
+    }
 
-#defence-intro{
-    height:fit-content;
+    #footer {
+        height: 80px;
+    }
 
-}
-#defence-mach{
-    height:fit-content;
-    right:20px;
+    footer a {
+
+        padding: 5px 5px;
+    }
+
+    .social-networks>li {
+
+        margin: 10px;
+        padding: 10px;
+        font-size: 100%;
+    }
+
+    .social-networks {
+        height: 50px;
+    }
+
+    .social-networks i {
+        font-size: 120%;
+        margin: 5px;
+        padding: 5px;
+    }
+
+
+    #booking-form {
+        height: 750px;
+        top: 50px;
+        padding-right: 15%;
+        margin-right: 20px;
+    }
+
+    ::placeholder,
+    #message {
+        color: gray;
+        font-size: medium;
+
+    }
+
+    #defence-outer h3 {
+        font-size: 80%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    #defence-outer p {
+        font-size: 70%;
+    }
+
+    #defence-intro {
+        height: fit-content;
+
+    }
+
+    #defence-mach {
+        height: fit-content;
+        right: 20px;
+    }
 }
