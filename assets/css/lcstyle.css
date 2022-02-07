@@ -561,6 +561,7 @@ footer>h5 {
     padding-top:50px;
     text-align:center;
     color:bisque;
+}
     
 
 
@@ -839,13 +840,13 @@ footer>h5 {
 
 
     h1 {
-        font-size: 200%;
+        font-size: 150%;
     }
 
     #menu {
         float: left;
-        letter-spacing: 2px;
-        font-size: 100%;
+        letter-spacing: 1px;
+        font-size: 80%;
         text-decoration: none;
         text-transform: initial;
     }
