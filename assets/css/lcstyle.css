@@ -524,6 +524,7 @@ footer>h5 {
 
 #about-sm p {
     font-size: 120%;
+    
 }
 
 #sm-text,
@@ -532,7 +533,7 @@ footer>h5 {
     padding: 50px;
     width: 100%;
 
-    padding: 30px auto;
+    margin: 30px auto;
 
 }
 
@@ -545,7 +546,7 @@ footer>h5 {
     width: 50%;
 }
 
-#sm-image>img {
+#sm-image> img {
     height: auto;
     width: 70%;
 }
@@ -556,24 +557,24 @@ footer>h5 {
     text-align: center;
 }
 
+#final-line{
+    padding-top:50px;
+    text-align:center;
+    color:bisque;
+    
 
 
 
 
 
-#cover-image>img {
+#cover-image> img {
     height: auto;
     width: 100%;
 }
 
 
-#final-line {
-    width: 100%;
-    max-height: 400px;
-    text-align: center;
 
 
-}
 
 #final-line >img {
 
@@ -751,7 +752,7 @@ footer>h5 {
 }
 
 .text-input:hover {
-    border-color: solid darkred;
+    border-color:  darkred;
 }
 
 /*for screens from 1200px and down*/
